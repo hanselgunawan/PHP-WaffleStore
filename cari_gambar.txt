@@ -1,0 +1,7 @@
+gambar kecil : 200x150px
+
+gambar sedang : 350x250px
+
+gambar besar : 1600x1200px
+
+http://www.youtube.com/watch?v=GzAj9BvjHM4

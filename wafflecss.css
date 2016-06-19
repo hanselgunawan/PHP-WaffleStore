@@ -1,0 +1,5626 @@
+@media only screen and (min-width: 1025px) {
+/*SEARCH NOT FOUND*/
+div#search_not_found
+{
+	height:300px; 
+	background-image:url(../images/reservation_background.jpg); 
+	width:800px; 
+	border:2px solid #c30; 
+	margin-bottom:50px; 
+	margin-left:180px; 
+	border-radius:20px/10px; 
+	position:relative;
+}
+
+div#search_not_found h3{
+	font-family:rockwell; 
+	font-size:30pt; 
+	text-align:center; 
+	color:#c30; 
+	margin-top:50px;
+}
+
+div#search_not_found a.search_backto_menu{
+	font-family:rockwell; 
+	border:1px solid black; 
+	float:right; 
+	margin-right:200px; 
+	margin-top:100px; 
+	background-color:white; 
+	color:#c30; 
+	font-size:14pt; 
+	text-decoration:none; 
+	border-radius:10px/10px; 
+	padding:7px; 
+	box-shadow:2px 2px 0px 0px black;
+}
+
+div#search_not_found a.search_backto_home{
+	font-family:rockwell; 
+	border:1px solid black; 
+	float:right; 
+	margin-right:100px;
+	margin-top:100px; 
+	background-color:#c30; 
+	color:white; 
+	font-size:14pt; 
+	text-decoration:none; 
+	border-radius:10px/10px; 
+	padding:7px; 
+	box-shadow:2px 2px 0px 0px black;
+}
+
+/* GAMBAR LOGO RECOMMENDED DI RECOMMENDATION */
+div#recommendation img.gambar_logo_recommend{
+	margin-top:-180px; 
+	position:relative; 
+	height:50px; 
+	width:50px; 
+	border-radius:30px/30px; 
+	margin-left:160px;
+}
+/*GAMBAR RECOMMEND PADA MENU*/
+div#menu_all img.logo_recommend_menu{
+	margin-top:-180px; 
+	position:relative; 
+	height:50px; 
+	width:50px; 
+	border-radius:30px/30px; 
+	margin-left:160px;
+}
+	
+/*REPLY PAGE CONTACTUS*/
+
+div#content_reply{
+	height:650px;
+	width:800px;
+	border:1px solid black;
+	margin:0 auto;
+}
+
+div#content_reply p.reply_message{
+	text-align:center;
+	font-family:rockwell;
+	color:#c30;
+	margin-top:20px;
+	font-size:16pt;
+}
+
+div#content_reply textarea{
+	margin-left:24%;
+}
+
+div#content_reply h1{
+	font-family:rockwell;
+	text-align:center;
+}
+
+div#cust_message{
+	border:3px solid #c30;
+	border-radius:10px/10px;
+	margin-left:12%;
+	margin-top:20px;
+	width:600px;
+	height:200px;
+	overflow:scroll;
+}
+
+div#cust_message select{
+	margin-left:40%;
+	width:100px;
+	overflow:visible;
+}
+
+div#cust_message p{
+	font-family:"Times New Roman", Times, serif;
+	font-size:16pt;
+	color:#c30;
+	text-align:center;
+}
+
+div#cust_message span{
+	color:black;
+}
+	
+/*UPDATE PRODUCT PAGE*/
+
+div#content_update_product{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#update_product{
+	margin-bottom:180px;
+}
+
+div#update_product table{
+	margin-top:20px;
+}
+
+div#update_product h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#update_product td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#update_product td:nth-child(8){
+	border-right:none;
+}
+
+div#update_product td img.table_update_product{
+	width:100px;
+	height:80px;
+}
+
+/*RESERVATION BACK END*/
+div#content_reservation_backend{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#reservation_backend{
+	margin-bottom:180px;
+}
+
+div#reservation_backend table{
+	margin-top:20px;
+}
+
+div#reservation_backend h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#reservation_backend td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#reservation_backend td:nth-child(11){
+	border-right:none;
+}
+
+/*CONTACT US BACKEND*/
+div#content_contactus_backend{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#contactus_backend{
+	margin-bottom:180px;
+}
+
+div#contactus_backend th{
+	padding:5px;
+}
+
+div#contactus_backend table{
+	margin-top:20px;
+}
+
+div#contactus_backend h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#contactus_backend td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#contactus_backend td:nth-child(8){
+	border-right:none;
+}
+
+/*CUSTOMER HISTORY BACKEND*/
+div#content_history_backend{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#history_backend{
+	margin-bottom:180px;
+}
+
+div#history_backend th{
+	padding:5px;
+}
+
+div#history_backend table{
+	margin-top:20px;
+}
+
+div#history_backend h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#history_backend td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#history_backend td:nth-child(8){
+	border-right:none;
+}
+
+
+/*UPDATE VENUE PAGE*/
+div#content_update_venue{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#update_venue{
+	margin-bottom:180px;
+}
+
+div#update_venue table{
+	margin-left:8%;
+	margin-top:10px;
+}
+
+div#update_venue h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#update_venue td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+}
+
+div#update_venue td:nth-child(5){
+	border-right:none;
+}
+
+div#update_venue td img.table_update_venue{
+	width:100px;
+	height:80px;
+}
+	
+/*ADD PRODUCT PAGE*/
+
+div#add_product{
+	height:100%;
+	margin:0 auto;
+	width:800px;
+	padding-bottom:20px;
+}
+
+div#add_product h1{
+	text-align:center;
+}
+
+div#add_product h3{
+	text-align:center;
+	font-family:#c30;
+	color:red;
+}
+
+
+div#kotak_add_product{
+	margin-top:20px;
+	height:100%;
+	margin-bottom:80px;
+}
+
+div#kotak_add_product ul.ul_insertproduct{
+	display:block;
+	padding-top:
+	margin-left:50px;
+}
+
+div#kotak_add_product li.insert_product{
+	display:block;
+	padding:5px;
+	margin-left:25%;
+}
+
+div#kotak_add_product li.insert_product input{
+	float:right;
+	margin-right:33%;
+}
+
+div#kotak_add_product li.insert_product select{
+	float:right;
+	margin-right:54.8%;
+}
+
+div#kotak_add_product li.insert_product textarea{
+	float:right;
+	margin-right:36.4%;
+}
+
+div#kotak_add_product input.tombol_reset_add{
+	color:blue;
+	width:80px;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:40px;
+}
+
+div#kotak_add_product input.tombol_submit_add{
+	width:80px;
+}
+	
+	
+/*PRODUCT PAGE*/
+
+div#content_product{
+	height:400px;
+	width:800px;
+	margin:0 auto;
+}
+
+div#content_product h1{
+	font-family:rockwell;
+	text-align:center;
+}
+
+div#content_product p{
+	text-align:center;
+	font-family:rockwell;
+	font-size:16pt;
+}
+
+div#content_product ul.ul_pageproduk{
+	margin-top:50px;
+	width:200px;
+	margin-left:37%;
+}
+
+div#content_product li.li_pageproduk{
+	display:block;
+	padding:10px;
+	text-decoration:underline;
+	text-align:center;
+}
+
+	
+/*DROP DOWN BACKEND*/	
+div#body ul.dropdown_product{
+	position:absolute;
+	margin-top:10px;
+	color:#c30;
+	visibility:hidden;
+}
+
+div#body ul.dropdown_product li.li_product{
+	display:block;
+	text-align:center;
+	width:93px;
+	background-color:white;
+	font-size:12pt;
+	border-bottom:2px solid #c30;
+	border-right:2px solid #c30;
+	border-left:2px solid #c30;
+}
+
+div#body li.menu_atas_backend:hover ul.dropdown_product{
+	visibility:visible;
+}
+
+div#body ul.dropdown_venue{
+	position:absolute;
+	margin-top:10px;
+	color:#c30;
+	width:50px;
+	visibility:hidden;
+}
+
+div#body ul.dropdown_venue li.li_venue{
+	display:block;
+	text-align:center;
+	width:78px;
+	margin-left:105px;
+	background-color:white;
+	font-size:12pt;
+	border-bottom:2px solid #c30;
+	border-right:2px solid #c30;
+	border-left:2px solid #c30;
+}
+
+div#body li.menu_atas_backend:hover ul.dropdown_venue{
+	visibility:visible;
+}
+	
+/*MENU ATAS BACKEND*/
+div#body li.menu_atas_backend{
+	padding:20px;
+	border-right:1px dashed #c30;
+}
+div#body li.menu_atas_backend:nth-child(6){
+	border-right:none;
+}
+
+/*BACK END INDEX*/
+
+div#backend_index{
+	width:800px;
+	margin:0 auto;
+	height:450px;
+}
+
+div#backend_index h1{
+	font-family:rockwell;
+	text-align:center;
+	margin-top:50px;
+	margin-left:-100px;
+}
+
+div#login_backend{
+	border:2px solid #c30;
+	border-radius:20px/10px;
+	width:500px;
+	background-image:url(../images/reservation_background.jpg);
+	margin-top:50px;
+	padding-top:50px;
+	margin-left:100px;
+	height:150px;
+}
+
+div#login_backend p.info_login{
+	color:red;
+	border:1px solid black;
+	text-align:center;
+	margin-top:-110px;
+	font-weight:bold;
+}
+
+div#login_backend h3{
+	font-family:rockwell;
+	padding:5px;
+	margin-left:70px;
+	text-align:center;
+}
+
+div#login_backend input{
+	float:right;
+	margin-right:50px;
+	font-family:rockwell;
+}
+
+div#login_backend input.submit_backend{
+	font-size:14pt;
+	width:100px;
+	cursor:pointer;
+	margin-right:58px;
+	margin-top:10px;
+}
+
+/*CONTENT HOME BACKEND*/
+
+div#content_home_backend{
+	width:800px;
+	margin:0 auto;
+	height:300px;
+}
+div#content_home_backend h1{
+	font-family:rockwell;
+	text-align:center;
+	margin-top:90px;
+	font-size:35pt;
+}
+div#content_home_backend p{
+	margin-top:20px;
+	font-size:18pt;
+	text-align:center;
+	font-family:rockwell;
+}
+	
+/*CHECKOUT*/
+
+div#checkout{
+	height:100%;
+	width:800px;
+	margin:0 auto;
+}
+
+div#checkout img.kayu_checkout{
+	margin-left:38%;
+	width:150px;
+	height:70px;
+}
+
+div#checkout2{
+	height:100%;
+	width:800px;
+	margin-bottom:100px;
+	background-image:url(../images/reservation_background.jpg);
+	border:3px solid #c30;
+	margin-top:30px;
+	border-radius:20px/10px;
+}
+
+div#checkout2 h3{
+	color:#c30;
+	text-align:center;
+	font-size:20pt;
+}
+
+div#checkout2 p{
+	font-family:rockwell;
+	text-align:center;
+	font-size:18pt;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+div#checkout2 h3 span{
+	color:black;
+}
+
+div#checkout2 h4{
+	border:3px solid #c30;
+	width:220px;
+	padding:5px;
+	font-size:14pt;
+	box-shadow:3px 3px 0px 0px;
+	margin-top:150px;
+	border-radius:10px/10px;
+	background-color:white;
+	
+}
+
+div#checkout2 a.checkout_button{
+	margin-bottom:0px;
+	margin-left:70px;
+	
+}
+
+div#checkout2 h4.checkout_button{
+	width:150px;
+	margin:0;
+	position:absolute;
+	margin-left:30%;
+	margin-top:-110px;
+	color:white;
+	background-color:#c30;
+	border:2px solid black;
+	box-shadow:2px 2px 0px 0px black;
+}
+
+div#checkout2 a{/*KALAU MAU UBAH LETAK BACK TO SHOPCART-nya*/
+	display:block;
+	height:30px;
+	margin-top:80px;
+	margin-bottom:50px;
+	width:220px;
+	margin-left:100px;
+	text-decoration:none;
+	color:black;
+}
+
+div#checkout2 h2{
+	font-family:rockwell;
+	font-weight:bold;
+	font-size:12pt;
+	text-align:right;
+	margin-top:-20px;
+	width:300px;
+	position:absolute;
+}
+
+
+
+div#checkout2 a.klik_bca{
+	display:block;
+	width:100px;
+}
+div#checkout2 a.klik_cod{
+	display:block;
+	margin-left:450px;
+	margin-top:-110px;
+}
+
+div#checkout2 img.icon_bca{
+	width:150px;
+	height:100px;
+	margin-top:-40px;
+	margin-left:50px;
+}
+
+div#checkout2 img.icon_cod{
+	width:200px;
+	height:100px;
+	float:right;
+	position:absolute;
+}
+
+	
+/*PAGINATION*/
+div#pagination a{
+	color:black;
+	font-family:rockwell;
+	font-size:12pt;
+}
+
+div#pagination{
+	margin-left:70%;
+	margin-bottom:20px;
+}
+	
+/*COMMENTS*/
+div#comment{
+	width:800px;
+	height:100%;
+	margin-bottom:100px;
+}
+div#comment table{
+	margin-top:-30px;
+	border-bottom:2px dotted #c30;
+	border-radius:10px/10px;
+}
+div#comment th{
+	color:#069;
+	padding:0;
+}
+
+div#comment th.nama{
+	width:300px;
+}
+div#comment th.comment{
+	width:800px;
+}
+
+div#comment th.date{
+	width:380px;
+}
+
+div#comment img.kayu_comment{
+	width:150px;
+	margin-left:40%;
+	margin-bottom:50px;
+}
+
+div#comment td{
+	padding:3px;
+	border-right:1px solid #c30;
+}
+div#comment td:nth-child(4){
+	border-right:none;
+}
+/*HEADER MOUSEOVER*/
+div#body ul.ul_mouseover_contactus2 li.li_mouseover_contactus2{
+	display:block;
+	padding:8px;
+	margin-top:-6px;
+	position:relative;
+	border-bottom:4px solid #c30;
+	border-right:1px solid #c30;
+	border-left:1px solid #c30;
+}
+div#body ul.ul_mouseover_contactus2{
+	position:absolute;
+	z-index:999;
+	margin-top:5px;
+	margin-left:44.8%;
+	border:1px solid black;
+	background:white;
+	width:100px;
+	visibility:hidden;
+}
+
+div#body li.li_contactus2{
+	padding:2px;
+	margin-left:5%;
+}
+
+div#body li.li_contactus2:hover ul.ul_mouseover_contactus2{
+	visibility:visible;
+}
+
+
+div#body a.breadcrumb{
+	color:#930;
+}
+
+div#body a.breadcrumb:hover{
+	color:#F33;
+	
+}
+div#body a.breadcrumb:active{
+	color:black;
+}
+
+div#body h6{
+	color:#903;
+	font-size:11pt;
+	margin-left:13%;
+	position:absolute;
+	margin-top:-50px;
+	font-family:rockwell;
+	width:25%;
+}
+
+div#body li.li_about{
+	padding:10px;
+	margin-left:15px;
+	margin-right:10px;
+}
+
+div#body ul.ul_mouseover li.li_mouseover{
+	display:block;
+	padding:8px;
+	margin-top:-6px;
+	position:relative;
+	border-bottom:4px solid #c30;
+	border-right:1px solid #c30;
+	border-left:1px solid #c30;
+}
+div#body ul.ul_mouseover{
+	position:absolute;
+	z-index:999;
+	margin-top:7px;
+	margin-left:34%;
+	background:white;
+	width:100px;
+	visibility:hidden;
+}
+div#body ul.ul_mouseover_contactus li.li_mouseover_contactus{
+	display:block;
+	padding:8px;
+	margin-top:-6px;
+	position:relative;
+	border-bottom:4px solid #c30;
+	border-right:1px solid #c30;
+	border-left:1px solid #c30;
+}
+div#body ul.ul_mouseover_contactus{
+	position:absolute;
+	z-index:999;
+	margin-top:5px;
+	margin-left:46%;
+	border:1px solid black;
+	background:white;
+	width:100px;
+	visibility:hidden;
+}
+
+div#body li.li_contactus{
+	padding:2px;
+	margin-left:3%;
+}
+
+div#body li.li_contactus:hover ul.ul_mouseover_contactus{
+	visibility:visible;
+}	
+div#body li.li_about:hover ul.ul_mouseover{
+	visibility:visible;
+}	
+	
+/*SUCCESS REGISTRATION*/
+div#container_success{
+	width:900px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#success h1.contact{
+	font-size:35pt;
+}
+
+div#success h2.contact{
+	font-size:20pt;
+}
+
+div#success{
+	width:800px;
+	height:400px;
+	border:2px solid black;
+	background-image:url(../images/reservation_background.jpg);
+	margin-left:50px;
+	margin-bottom:50px;
+	margin-top:40px;
+	border-radius:20px/10px;
+}
+
+div#success h1{
+	text-align:center;
+	font-family:rockwell;
+	margin-top:20px;
+	font-size:40pt;
+	color:#c30;
+}
+
+div#success h2{
+	text-align:center;
+	color:#c30;
+	font-size:30px;
+}
+
+div#success p{
+	font-size:18pt;
+	color:#c30;
+	font-family:rockwell;
+	margin-top:70px;
+	text-align:center;
+}
+
+div#success h3.back_home_contact {
+	text-decoration:none;
+	border:1px solid black;
+	background-color:white;
+	border-radius:10px/10px;
+	font-size:16pt;
+	padding:5px;
+	box-shadow:2px 2px 0px 0px black;
+	width:160px;
+	margin-top:100px;
+	margin-left:315px;
+	position:absolute;
+}
+
+div#success h3.back_home{
+	text-decoration:none;
+	border:1px solid black;
+	background-color:white;
+	border-radius:10px/10px;
+	font-size:16pt;
+	padding:5px;
+	box-shadow:2px 2px 0px 0px black;
+	width:160px;
+	margin-top:100px;
+	margin-left:120px;
+	position:absolute;
+}
+
+div#success h3.back_home_contact a{
+	color:#c30;
+	text-decoration:none;
+}
+
+div#success h3.back_home a{
+	color:#c30;
+	text-decoration:none;
+}
+
+div#success h3.login_now{
+	background-color:#c30;
+	box-shadow:2px 2px 0px 0px black;
+	padding:5px;
+	float:right;
+	margin-right:130px;
+	margin-top:100px;
+	width:150px;
+	font-size:16pt;
+	border:1px solid black;
+	border-radius:10px/10px;
+	text-align:center;
+}
+
+div#success h3.login_now a{
+	color:#fff;
+	text-decoration:none;
+}	
+	
+/*RESERVATION*/
+div#body img.kayu_reservation{
+	height:70px;
+	margin-left:44%;
+}
+
+div#reservation{
+	width:800px;
+	height:100%;
+	margin-bottom:100px;
+	padding-top:5px;
+	padding-bottom:20px;
+	margin-top:40px;
+	margin-left:17%;
+	border: 2px solid #c30;
+	border-radius:20px/10px;
+	overflow:hidden;
+	background-image:url(../images/reservation_background.jpg);
+}
+
+div#reservation ul.reserve li{
+	display:block;
+	padding:5px;
+	margin-left:25%;
+}
+
+div#reservation img.logo_information{
+	width:18px;
+	height:18px;
+	position:absolute;
+	margin-top:2px;
+	cursor:pointer;
+}
+
+div#reservation p#p_information{
+	position:absolute;
+	background-color:#000;
+	opacity:0.8;
+	color:white;
+	margin-top:-40px;
+	margin-left:150px;
+	visibility:hidden;
+	width:180px;
+	font-size:12pt;
+}
+
+div#reservation p.p_reservation{
+	width:800px;
+	color:#c30;
+	margin-bottom:5px;
+	font-size:16pt;
+	font-family:rockwell;
+	text-align:center;
+	font-weight:bold;
+}
+
+div#reservation h1.p_info2{
+	position:absolute;
+	font-size:12pt;
+	font-weight:100;
+	background-color:black;
+	opacity:0.8;
+	color:#fff;
+	width:230px;
+	margin-left:230px;
+	margin-top:-40px;
+	visibility:hidden;
+}
+
+div#reservation ul.reserve li input{
+	width:15em;
+	float:right;
+	margin-right:40%;
+}
+
+div#reservation ul.reserve li select.select1{
+	margin-left:82px;
+}
+div#reservation ol.terms{
+	margin-left:60px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+div#reservation ol.terms li{
+	font-family:rockwell;
+	font-size:10pt;
+}
+
+div#reservation input.reset_reservation{
+	font-size:13pt;
+	font-family:rockwell;
+	cursor:pointer;
+	margin-left:200px;
+	margin-right:200px;
+	border-radius:10px/10px;
+	border:2px solid #c30;
+	box-shadow:1px 1px 0px 0px;
+	width:80px;
+	background-color:#fff;
+}
+
+div#reservation input.submit_reservation{
+	font-size:13pt;
+	font-family:rockwell;
+	cursor:pointer;
+	border-radius:10px/10px;
+	width:80px;
+	border:2px solid #000;
+	box-shadow:1px 1px 0px 0px;
+	background-color:#c30;
+	color:#fff;
+}
+/*COMMENTS*/
+div#comment{
+	width:800px;
+	height:100%;
+	margin-bottom:100px;
+}
+div#comment table{
+	margin-top:-30px;
+	border-bottom:2px dotted #c30;
+	border-radius:10px/10px;
+}
+div#comment th{
+	color:#069;
+	padding:0;
+}
+
+div#comment th.nama{
+	width:300px;
+}
+div#comment th.comment{
+	width:800px;
+}
+
+div#comment th.date{
+	width:380px;
+}
+
+div#comment img.kayu_comment{
+	width:150px;
+	margin-left:40%;
+	margin-bottom:50px;
+}
+
+div#comment td{
+	padding:3px;
+	border-right:1px solid #c30;
+}
+div#comment td:nth-child(4){
+	border-right:none;
+}
+	
+/*CONTACT US*/
+div#container_contactus{
+	margin:0 auto;
+	width:800px;
+	height:100%;
+}
+div#body img.kayu_contact_us{
+	margin-left:43%;
+	height:70px;
+}
+
+div#contact_us{
+	width:850px;
+	margin-left:-13px;
+	height:450px;
+	margin-top:40px;
+	border-radius:25px/50px;
+	border-bottom:2px solid #963;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+div#contact_us p.p_atas{
+	color:#c30;
+	font-family:rockwell;
+	text-align:right;
+	width:810px;
+	font-size:14pt;
+}
+div#contact_us p.p_atas2{
+	color:black;
+	font-family:rockwell;
+	text-align:center;
+	width:450px;
+	margin-left:380px;
+	font-size:11pt;
+}
+
+div#kiri_contact h3{
+	font-family:rockwell;
+	text-align:center;
+	margin-bottom:5px;
+	color:#960;
+}
+
+div#kiri_contact{
+	width:350px;
+	margin-left:6%;
+	height:100%;
+	position:relative;
+	margin-top:-73px;
+}
+
+div#kiri_contact p{
+	font-family:rockwell;
+	margin-bottom:15px;
+	font-size:14pt;
+	margin-left:25px;
+}
+div#kiri_contact img.logo_contactkiri{
+	position:absolute;
+	height:20px;
+	width:20px;
+}
+
+div#googleMap{
+	width:310px;
+	height:200px;
+}
+div#kanan_contact{
+	border:3px solid #c30;
+	border-right:none;
+	border-radius:10px/10px;
+	width:400px;
+	height:325px;
+	margin-top:-360px;
+	margin-left:400px;
+	position:absolute;
+	overflow:hidden;
+	padding-left:15px;
+}
+
+div#kanan_contact ul.contactus li{
+	display:block;
+	padding:5px;
+	margin-left:30px;
+}
+
+div#kanan_contact ul.contactus li input{
+	width:200px;
+	float:right;
+	margin-right:80px;
+}
+
+div#kanan_contact ul.contactus li textarea{
+	float:right;
+	margin-right:25px;
+}
+
+div#kanan_contact p{
+	width:200px;
+	margin-top:5px;
+	margin-bottom:5px;
+	width:380px;
+	text-align:center;
+	font-family:rockwell;
+	color:#c30;
+	font-size:13pt;
+}
+
+div#kanan_contact input.tombol_reset_contact{
+	margin-top:20px;
+	margin-left:60px;
+	margin-right:100px;
+	font-family:rockwell;
+	border:2px solid #c30;
+	box-shadow:1px 1px 0px 0px;
+	width:70px;
+	border-radius:10px/10px;
+	font-size:12pt;
+	cursor:pointer;
+	background-color:#fff;
+	color:#000;
+}
+
+div#kanan_contact input.tombol_submit_contact{
+	font-family:rockwell;
+	border:2px solid black;
+	box-shadow:1px 1px 0px 0px;
+	width:70px;
+	border-radius:10px/10px;
+	font-size:12pt;
+	cursor:pointer;
+	background-color:#F00;
+	color:#fff;
+}
+	
+/*REGISTRATION CONFIRMATION*/
+div#registration p.info_form{
+	
+	color:red;
+	font-size:16pt;
+	position:relative;
+	margin-top:-270px;
+	margin-left:110px;
+	font-weight:bold;
+	position:relative;
+	font-family:rockwell;
+}
+
+
+div#body img.kayu_regis_confirm{
+	height:70px;
+	margin-left:43%;
+}
+
+div#regis_confirm{
+	width:60%;
+	height:100%;
+	margin-bottom:100px;
+	margin-top:10px;
+	margin-left:20%;
+}
+
+div#data_confirm{
+	margin:0 auto;
+	width:720px;
+	height:100%;
+	border:2px solid black;
+	border-radius:10px/10px;
+	padding-bottom:20px;
+	background-image:url(../images/reservation_background.jpg);
+}
+
+div#data_confirm p{
+	font-family:rockwell;
+	color:#000;
+	font-size:14pt;
+	text-align:left;
+	padding:5px;
+}
+
+div#data_confirm label{
+	font-family:rockwell;
+	color:#c30;
+	font-size:14pt;
+	float:left;
+	width:7em;
+	padding:5px;
+	margin-left:180px;
+}
+
+div#data_confirm input.tombol_cancel_regis{
+	margin-top:20px;
+	box-shadow:1px 1px 0px 0px;
+	margin-left:150px;
+	font-size:11pt;
+	border-radius:10px/10px;
+	margin-right:250px;
+	font-family:rockwell;
+	background-color:#fff;
+	color:#000;
+	border-color:red;
+	padding:5px;
+	cursor:pointer;
+}
+
+div#data_confirm input.tombol_confirm_regis{
+	box-shadow:1px 1px 0px 0px;
+	font-size:11pt;
+	border-radius:10px/10px;
+	font-family:rockwell;
+	background-color:#c30;
+	color:#fff;
+	border-color:black;
+	padding:5px;	
+	cursor:pointer;
+}	
+	
+	
+/*HEADER*/
+div#header p{
+	position:relative;
+	margin-top:-150.5px;
+	margin-right:3px;
+	color:#fff;
+	float:right;
+	font-size:13pt;
+	border-bottom:1px dashed white;
+}
+
+div#header p.welcome{
+	float:right;
+	position:relative;
+	margin-top:-60px;
+	margin-right:50px;
+	border-bottom:none;
+}
+
+div#header p.welcome span{
+	font-weight:bold;
+}
+
+div#header a{
+	color:#fff;
+	text-decoration:none;
+}
+
+div#header img.tombol_shoppingcart{
+	height:30px;
+	width:140px;
+	position:relative;
+	margin-top:-118px;
+	float:right;
+	margin-right:5px;
+}
+
+div#header img.kaca_pembesar{
+	width:45px;
+	height:30px;
+	position:absolute;
+	margin-left:96.7%;
+	margin-top:-30px;
+}
+
+div#header input{
+	height:20px;
+	background-color:#fff;
+	float:right;
+	width:11.5%;
+	margin-top:-28px;
+	position:absolute;
+	margin-left:85.2%;
+}
+
+/*SHOPPING CART */
+div#body img.kayu_shopcart{
+	margin-left:475px;
+	height:65px;	
+}
+
+div#cart_list img.tombol_up{
+	width:30px;
+	padding:none;
+	margin:none;
+	height:30px;
+	border:none;
+}
+div#cart_list img.tombol_down{
+	-webkit-transform:rotate(180deg);
+	width:30px;
+	padding:none;
+	margin:none;
+	height:30px;
+	border:none;
+}
+div#cart_list img.tombol_delete{
+	width:30px;
+	padding:none;
+	margin:none;
+	height:30px;
+	border:none;
+}
+
+
+#cart_list{
+	margin:0 auto;
+	border:1px solid #c30;
+	border-radius:20px/10px;
+	padding-bottom:20px;
+	padding-right:10px;
+	padding-left:10px;
+	width:800px;
+	
+}
+th{
+	font-family:rockwell;
+	padding:20px;
+	text-align:center;
+	border-bottom:2px solid red;
+}
+table{
+	border-bottom:1px dotted red;
+}
+td{
+	font-family:rockwell;
+	padding:10px;
+	text-align:center;
+	height:100%;
+	width:150px;
+}
+
+td img{
+	border:1px solid #c30;
+	border-radius:10px/10px;
+}
+
+div#cart_list p
+{
+	float:right;
+	margin:0 auto;
+	margin-right:45px;
+	margin-top:4%;
+	color:#C30;
+	font-family:rockwell;
+	font-weight:bold;
+}
+div#cart_list p span
+{
+	color:#000000;
+	font-size:14pt;
+}
+
+div#cart_list h1{
+	margin-top:30px;
+	font-size:14pt;
+	font-family:rockwell;
+	text-align:center;
+	margin-left:0 auto;
+	position:absolute;
+}
+
+div#cart_list button
+{
+	font-size:11pt;
+	margin-top:15px;
+	font-family:rockwell;
+	margin-left:14%;
+	cursor:pointer;
+	box-shadow:1.5px 1.5px 0px;
+}
+
+div#body p.tombol_pada_shopcart
+{
+	margin-top:50px;
+	margin-bottom:200px;
+	font-family:rockwell;
+	margin-left:25.5%;
+	text-align:center;
+	font-size:13pt;
+	border:2px solid #c30;;
+	border-radius:10px/10px;
+	box-shadow:2px 2px 0px 0px;
+	float:left;
+	padding:5px;
+	background-color:#fff;
+	color:#000;
+}
+div#body p.tombol_pada_shopcart2
+{
+	margin-top:20px;
+	font-family:rockwell;
+	text-align:center;
+	font-size:13pt;
+	border:2px solid black;
+	border-radius:10px/10px;
+	margin-right:26.5%;
+	padding:5px;
+	background-color:red;
+	color:#ffffff;
+	float:right;
+	box-shadow:2px 2px 0px 0px;
+}
+
+#container_cart
+{
+	margin-bottom:150px;
+}
+
+div#cart_list img.image_shopcart{
+	height:80px;
+	width:120px;
+}
+
+div#tombol_shopcart{
+	width:1100px;
+	margin:0 auto;
+}
+
+
+
+/*ABOUT US*/
+div#about_us a.back_to_top{
+	margin-left:85%;
+	font-size:14pt;
+	position:relative;
+}
+
+
+div#body img.kayu_menu_about{
+	height:70px;
+	margin-left:44%;
+}
+
+div#about_us{
+	margin-top:20px;
+	width:780px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}
+div#about_us img{
+	border-radius:20px/10px;
+	border:1px solid #c30;
+	margin-left:-10px;
+}
+
+div#about_us p{
+	font-family:rockwell;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:10px;
+	font-size:14pt;
+}
+
+div#about_us img.garis_about{
+	border:none;
+	margin-left:-10%;
+	position:relative;
+}
+
+div#about_us img.kayu_video{
+	border:none;
+	width:20%;
+	margin-left:41%;
+	margin-top:-33px;
+	height:75px;
+}
+div#about_us video
+{
+	margin-left:15%;
+	margin-top:20px;
+}
+
+div#about_us p.judul_video{
+	color:#c30;
+	font-size:18pt;
+	font-weight:bold;
+	margin-left:3%;
+}
+
+div#venues{
+	margin-top:20px;
+	margin-left:-65px;
+	width:923px;
+	height:100%;
+	border:4px solid #c30;
+	overflow:hidden;
+	border-radius:20px/10px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+div#venues ul li.about h1{
+	text-align:center;
+	font-family:rockwell;
+	font-size:20pt;
+	position:absolute;
+	width:16.5%;
+	overflow:hidden;
+	margin-left:-1.5%;
+}
+
+div#venues ul{
+	padding:5px;
+}
+
+div#venues ul li.about img{
+	width:250px;
+	height:350px;
+	margin-left:-25px;
+	border:4px solid #960;
+}
+
+div#venues ul li.about{ /*DIKASIH CLASS, ADA YANG KETIBAN!*/
+	display:inline-block;
+	width:200px;
+	padding:50px;
+}
+
+div.test{
+	opacity:1;
+}
+
+.gambar {
+	width:250px;
+	height:360px;
+}
+.info {
+	position:absolute;
+	margin-top:-91px;
+	overflow:hidden;
+	border-radius:20px/10px;
+	margin-left:-21px;
+	width:249px;
+	height:89px;
+	background-color:rgba(20,20,20,0.7);
+	-webkit-transition:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
+	opacity:0;
+}
+.gambar:hover .info{
+	opacity:1;
+}
+
+.headline{
+	position:absolute;
+	font-family:rockwell;
+	font-size:12pt;
+	color:white;
+	position:absolute;
+	transition:ease-in;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left:-100px;
+	text-align:left;
+	font-weight:100;
+}
+.gambar:hover .headline{
+	margin-left:20px;
+}
+
+
+/*LIGHT-BOX!!*/
+div#registration{
+	background-image:url(../images/reservation_background.jpg);
+	border:1px solid red;
+	border-radius:10px/10px;
+	height:250px;
+	padding:10px;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	padding-left:50px;
+	margin-bottom:100px;
+	padding-bottom:60px;
+	overflow:hidden;
+}
+
+div#body img.kayu_menu_regis
+{
+	margin-left:42%;
+	height:60px;
+	width:180px;
+}
+
+div#registration form{
+	position:relative;
+	height:280px;
+}
+
+div#registration form ul li{
+	display:block;
+	padding:6px;
+	margin-right:360px;
+	font-size:13pt;
+}
+
+div#registration form ul li input{
+	width:16em;
+	float:right;
+}
+
+div#registration form textarea{
+	float:right;
+	margin-top:-165px;
+	margin-right:4%;
+}
+
+div#registration .tombol_submit
+{
+	margin-left:70%;
+	background-color:red;
+	color:#fff;
+	width:15%;
+	height:35px;
+	padding:5px;
+	border-radius:10px/10px;
+	box-shadow:1px 1px 0px 0px #000;
+	margin-top:50px;
+	font-family:rockwell;
+	font-size:13pt;
+	cursor:pointer;
+	position:absolute;
+}
+
+div#registration .tombol_reset
+{
+	margin-left:10%;
+	font-family:rockwell;
+	background-color:#09C;
+	color:#fff;
+	height:35px;
+	font-size:13pt;
+	border-radius:10px/10px;
+	padding:5px;
+	width:15%;
+	cursor:pointer;
+	margin-top:50px;
+	position:absolute;
+	box-shadow:1px 1px 0px 0px #000;
+}
+.tulisan_required
+{
+ 	margin-top:-70px;
+	margin-right:8%;
+	font-family:rockwell;
+	color:#c30;
+	font-size:16pt;
+	font-weight:100;
+	text-align:center;
+}
+
+#registration p.alamat_regis{
+	margin-left:53%;
+	margin-top:-190px;
+	font-family:rockwell;
+	font-size:13pt;
+	position:absolute;
+}	
+
+/*PRODUCT DETAIL*/
+
+div#product_detail img.gambar_samping{
+	width:350px;
+	height:250px;
+}
+	
+div#product_detail h3.back_to{
+	text-align:center;
+	margin-right:63%;
+	margin-top:70px;
+	font-family:rockwell;
+	font-size:13pt;
+}
+
+div#product_detail h3.back_to a{
+	text-decoration:none;
+	color:#930;
+}
+
+div#product_detail h3.back_to a:hover{
+	color:#c30;
+}
+
+div#product_detail h3.back_to a:active{
+	color:#000000;
+}
+
+#product_detail{
+	height:100%;
+	margin-left:15%;
+	margin-top:50px;
+	margin-bottom:130px;
+	width:80%;
+}
+
+div#product_desc{
+	margin-left:400px;
+	margin-top:-290px;
+	width:60%;
+}
+
+div#product_desc h3
+{
+	font-family:rockwell;
+	font-weight:100;
+	color:#C03;
+	padding-bottom:20px;
+	border-bottom:2px solid black;
+	width:78%;
+	border-bottom-color:#C33;
+	box-shadow:0px 1px 0px black;
+	margin-bottom:20px;
+}
+
+div#product_desc p
+{
+	font-family:rockwell;
+	color:#C03;
+	font-size:14pt;
+	padding-bottom:20px;
+	border-bottom:2px solid black;
+	width:78%;
+	border-bottom-color:#C33;
+	box-shadow:0px 1px 0px black;
+	margin-bottom:20px;
+}
+
+div#product_desc span.deskripsi{
+	color:black;
+	font-size:12.5pt;
+	display:block;
+	font-weight:100;
+	text-align:left;
+	font-family:rockwell;
+	margin-left:35%;
+	margin-top:-20px;
+	width:70%;
+	
+}
+
+
+div#product_detail img
+{
+	margin-left:0%;
+	
+}
+
+div#product_desc img.komposisi{
+	border:none;
+	height:6%;
+	width:3%;
+	margin-left:100px;
+	margin-top:-70px;
+	position:absolute;
+}
+
+div#product_detail img.addtocart_button
+{
+	height:30px;
+	border:2px solid black;
+	border-radius:0px/0px;
+	margin-left:30%;
+	width:20%;
+}
+
+#nama_product
+{
+	width:350px;
+}
+
+div#nama_product h1{
+	color:black;
+	margin-top:10px;
+	font-size:18pt;
+	text-align:center;
+	font-family:rockwell;
+	font-weight:100;
+}
+
+.lightbox
+{
+	display:none;
+	position:fixed;
+	z-index:9999;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-align:center;
+	background:rgba(0,0,0,0.8);
+	cursor:default;
+	
+}
+
+div#product_detail img.gambar_popup{
+	cursor:default; 
+	width:800px; 
+	height:550px;
+	margin-top:40px;
+	margin-left:5%;
+}
+
+div#product_detail img.lightbox{
+	max-width:90%;
+	max-height:80%;
+	margin-top:2%;
+}
+
+.lightbox:target
+{
+	display:block;
+	outline:none;
+}
+
+div#product_desc span.deskripsi_harga{
+	color:black;
+	font-size:13pt;
+	display:block;
+	font-weight:100;
+	text-align:left;
+	font-family:rockwell;
+	margin-left:45%;
+	margin-top:-20px;
+	width:35%;
+	
+}
+
+/*LOGIN_FORM*/
+div#login_form{
+	border-radius:20px/10px;
+	width:850px;
+	margin:0 auto;
+	height:525px;
+	margin-top:20px;
+	margin-bottom:50px;
+	overflow:hidden;
+	background-image:url(../images/login_form.jpg);
+}
+
+div#login_kanan{
+	width:250px;
+	height:530px;
+	margin-left:614px;
+}
+
+div#login_kanan p.info_login{
+	color:yellow;
+	font-family:rockwell;
+	position:absolute;
+	margin-top:-270px;
+	margin-left:20px;
+	font-size:12pt;
+}
+
+div#login_kanan form
+{
+	margin-top:50px;
+}
+
+div#login_kanan label
+{
+	margin-left:10px;
+	color:#ffffff;
+	font-size:30px;
+}
+
+div#login_kanan input
+{
+	margin-left:10px;
+	height:22px;
+	width:180px;
+}
+
+div#login_kanan input.submit_button
+{
+	margin-top:20px;
+	margin-left:119px;
+	width:75px;
+	height:30px;
+	font-family:myriad;
+	font-size:16pt;
+	color:#c30;
+	border-radius:5px/10px;
+	border:2px solid black;
+	background-color:white;
+	cursor:pointer;
+}
+
+div#login_kanan p.login_forgot
+{
+	color:#ffffff;
+	margin-left:20px;
+	margin-top:60px;
+}
+
+div#login_kanan p.login_forgot2
+{
+	color:#ffffff;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+div#login_kanan a{
+	text-decoration:underline;
+	color:white;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+div#backg{
+	background-image:url(../images/wood-background.png);
+	margin-top:-10px;
+	margin-bottom:-15px;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+div#header img{
+	height:150px;
+	width:100%;
+	
+}
+
+#body .menu_diatas{
+	width:100%;
+	margin-left:0%;
+}
+
+#body{
+	border:1px solid white;
+	width:85%;
+	height:100%;
+	margin:0 auto;
+	background-color:white;
+	overflow:hidden;
+	
+	
+}
+
+div#body ul.menu_atas{
+	margin-top:15px;
+	margin-left:17%;
+	margin-right:50%;
+	width:80%;
+}
+
+div#body ul li{
+	display:inline;
+	padding:4.5%;
+	font-family:rockwell;
+	font-size:13pt;
+	
+}
+
+div#body ul li a{
+	text-decoration:none;
+	color:#C03;
+}
+
+div#body ul li a:hover{
+	color:black;
+}
+
+div#body ul li a:active{
+	color:#F00;
+}
+
+div#body img.garismenu{
+	margin-left:5%;
+	width:90%;
+}
+
+div#body img.kayu{
+	margin-left:42%;
+	height:88px;
+	width:18%;
+}
+
+#header{
+	height:130px;
+}
+
+div#header input.searchbar{
+	float:right;
+	margin-top:-100px;
+	position:relative;
+	margin-right:100px;
+}
+
+
+div#recommendation img.gambar_rekom
+{
+	width:100%;
+	height:150px;
+	border:2px solid #c30;
+	border-radius:10px/10px;
+}
+
+div#recommendation
+{
+	
+	margin-top:20px;
+	padding-top:0px;
+	margin-left:9%;
+	border-radius:10px/10px;
+	border:3px #C63 solid;
+	margin-right:8%;
+	padding-bottom:-200px;
+	margin-bottom:50px;
+}
+
+
+div#recommendation ul li{
+	display:inline-block;
+		width:22%;
+}
+div#recommendation ul li img{
+	margin-top:-20px;
+	margin-bottom:10px;
+}
+
+div#recommendation ul li img:hover{
+	-webkit-filter:brightness(110%);
+}
+
+div#recommendation ul{
+	margin-left:5%;
+	list-style:none;
+}
+
+p.rekom{
+	text-align:center;
+	width:120%;
+	margin-left:-20px;
+}
+
+div#recommendation ul li img.addtocart_button{
+	border-radius:0px/0px;
+	margin-top:10px;
+	height:25px;
+	margin-left:25%;
+	border:2px solid black;
+	width:50%;
+	padding:0;
+}
+
+div#footer img{
+	height:130px;
+	width:100%;
+	position:relative;
+}
+
+div#menu_all a.back_to_top{
+	margin-left:85%;
+	font-size:14pt;
+	position:relative;
+	color:#c30;
+}
+
+div#menu_all
+{
+	margin-top:20px;
+	padding-top:0px;
+	margin-left:10%;
+	margin-right:80px;
+	padding-bottom:-200px;
+	margin-bottom:50px;
+	height:100%;
+}
+
+img.gambar_menu
+{
+	width:100%;
+	height:150px;
+}
+
+div#menu_all ul li{
+	display:inline-block;
+	width:22%;
+}
+div#menu_all ul li img{
+	border-radius:10px/10px;
+	margin-top:-20px;
+	margin-bottom:10px;
+	border:2px #c30 solid;
+}
+div#menu_all ul li img:hover{
+	-webkit-filter:brightness(110%);
+}
+
+div#menu_all ul{
+	margin-left:3%;
+	list-style:none;
+}
+
+div#menu_all ul li img.addtocart_button{
+	border-radius:0px/0px;
+	margin-top:10px;
+	height:25px;
+	margin-left:24%;
+	padding:0px;
+	width:50%;
+}
+div#body img.kayu_menu{
+	margin-left:45%;
+	height:65px;
+}
+
+div#body img.kayu_menu_login{
+	margin-left:44%;
+	height:65px;
+}
+
+div#submenu ul li
+{
+	padding:3.5%;
+}
+div#submenu ul li a
+{
+	text-align:center;
+	margin-left:3%;
+	margin-right:-3.5%;
+}
+div#submenu ul li:before
+{
+	content:"|";	
+}
+div#submenu ul li:first-child:before
+{
+	content:none;
+}
+
+div#submenu ul
+{
+	margin-left:23%;
+	width:75%;
+}
+div#submenu{
+	margin-top:10px;
+	height:20px;
+	margin-right:10%;
+}
+
+div#body img.garissubmenu{
+	margin-left:13%;
+	width:75%;
+}
+    
+}
+
+@media only screen and (min-width: 801px) and (max-width:1024px){
+/*SEARCH NOT FOUND*/
+div#search_not_found
+{
+	height:300px; 
+	background-image:url(../images/reservation_background.jpg); 
+	width:650px; 
+	border:2px solid #c30; 
+	margin-bottom:50px; 
+	margin-left:110px; 
+	border-radius:20px/10px; 
+	position:relative;
+}
+
+div#search_not_found h3{
+	font-family:rockwell; 
+	font-size:30pt; 
+	text-align:center; 
+	color:#c30; 
+	margin-top:50px;
+}
+
+div#search_not_found a.search_backto_menu{
+	font-family:rockwell; 
+	border:1px solid black; 
+	float:right; 
+	margin-right:120px; 
+	margin-top:100px; 
+	background-color:white; 
+	color:#c30; 
+	font-size:14pt; 
+	text-decoration:none; 
+	border-radius:10px/10px; 
+	padding:7px; 
+	box-shadow:2px 2px 0px 0px black;
+}
+
+div#search_not_found a.search_backto_home{
+	font-family:rockwell; 
+	border:1px solid black; 
+	float:right; 
+	margin-right:100px;
+	margin-top:100px; 
+	background-color:#c30; 
+	color:white; 
+	font-size:14pt; 
+	text-decoration:none; 
+	border-radius:10px/10px; 
+	padding:7px; 
+	box-shadow:2px 2px 0px 0px black;
+}
+	
+/* GAMBAR LOGO RECOMMENDED DI RECOMMENDATION */
+div#recommendation img.gambar_logo_recommend{
+	margin-top:-120px; 
+	position:relative; 
+	height:40px; 
+	width:40px; 
+	border-radius:30px/30px; 
+	margin-left:125px;
+}
+
+/*GAMBAR RECOMMEND PADA MENU*/
+div#menu_all img.logo_recommend_menu{
+	margin-top:-125px; 
+	position:relative; 
+	height:40px; 
+	width:40px; 
+	border-radius:30px/30px; 
+	margin-left:120px;
+}
+	
+/*REPLY PAGE CONTACTUS*/
+
+div#content_reply{
+	height:650px;
+	width:800px;
+	border:1px solid black;
+	margin:0 auto;
+}
+
+div#content_reply p.reply_message{
+	text-align:center;
+	font-family:rockwell;
+	color:#c30;
+	margin-top:20px;
+	font-size:16pt;
+}
+
+div#content_reply textarea{
+	margin-left:24%;
+}
+
+div#content_reply h1{
+	font-family:rockwell;
+	text-align:center;
+}
+
+div#cust_message{
+	border:3px solid #c30;
+	border-radius:10px/10px;
+	margin-left:12%;
+	margin-top:20px;
+	width:600px;
+	height:200px;
+	overflow:scroll;
+}
+
+div#cust_message select{
+	margin-left:40%;
+	width:100px;
+	overflow:visible;
+}
+
+div#cust_message p{
+	font-family:"Times New Roman", Times, serif;
+	font-size:16pt;
+	color:#c30;
+	text-align:center;
+}
+
+div#cust_message span{
+	color:black;
+}
+	
+/*UPDATE PRODUCT PAGE*/
+
+div#content_update_product{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#update_product{
+	margin-bottom:180px;
+}
+
+div#update_product table{
+	margin-top:20px;
+}
+
+div#update_product h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#update_product td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#update_product td:nth-child(8){
+	border-right:none;
+}
+
+div#update_product td img.table_update_product{
+	width:100px;
+	height:80px;
+}
+
+/*RESERVATION BACK END*/
+div#content_reservation_backend{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#reservation_backend{
+	margin-bottom:180px;
+}
+
+div#reservation_backend table{
+	margin-top:20px;
+}
+
+div#reservation_backend h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#reservation_backend td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#reservation_backend td:nth-child(11){
+	border-right:none;
+}
+
+/*CONTACT US BACKEND*/
+div#content_contactus_backend{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#contactus_backend{
+	margin-bottom:180px;
+}
+
+div#contactus_backend th{
+	padding:5px;
+}
+
+div#contactus_backend table{
+	margin-top:20px;
+}
+
+div#contactus_backend h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#contactus_backend td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#contactus_backend td:nth-child(8){
+	border-right:none;
+}
+
+/*CUSTOMER HISTORY BACKEND*/
+div#content_history_backend{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#history_backend{
+	margin-bottom:180px;
+}
+
+div#history_backend th{
+	padding:5px;
+}
+
+div#history_backend table{
+	margin-top:20px;
+}
+
+div#history_backend h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#history_backend td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+	
+}
+
+div#history_backend td:nth-child(8){
+	border-right:none;
+}
+
+
+/*UPDATE VENUE PAGE*/
+div#content_update_venue{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#update_venue{
+	margin-bottom:180px;
+}
+
+div#update_venue table{
+	margin-left:8%;
+	margin-top:10px;
+}
+
+div#update_venue h1{
+	text-align:center;
+	font-family:rockwell;
+}
+
+div#update_venue td{
+	border-right:1px dashed #c30;
+	border-bottom:1px dashed #c30;
+}
+
+div#update_venue td:nth-child(5){
+	border-right:none;
+}
+
+div#update_venue td img.table_update_venue{
+	width:100px;
+	height:80px;
+}
+	
+/*ADD PRODUCT PAGE*/
+
+div#add_product{
+	height:100%;
+	margin:0 auto;
+	width:800px;
+	padding-bottom:20px;
+}
+
+div#add_product h1{
+	text-align:center;
+}
+
+div#add_product h3{
+	text-align:center;
+	font-family:#c30;
+	color:red;
+}
+
+
+div#kotak_add_product{
+	margin-top:20px;
+	height:100%;
+	margin-bottom:80px;
+}
+
+div#kotak_add_product ul.ul_insertproduct{
+	display:block;
+	padding-top:
+	margin-left:50px;
+}
+
+div#kotak_add_product li.insert_product{
+	display:block;
+	padding:5px;
+	margin-left:25%;
+}
+
+div#kotak_add_product li.insert_product input{
+	float:right;
+	margin-right:33%;
+}
+
+div#kotak_add_product li.insert_product select{
+	float:right;
+	margin-right:54.8%;
+}
+
+div#kotak_add_product li.insert_product textarea{
+
+	float:right;
+	margin-right:36.4%;
+}
+
+div#kotak_add_product input.tombol_reset_add{
+	color:blue;
+	width:80px;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:40px;
+}
+
+div#kotak_add_product input.tombol_submit_add{
+	width:80px;
+}
+	
+	
+/*PRODUCT PAGE*/
+
+div#content_product{
+	height:400px;
+	width:800px;
+	margin:0 auto;
+}
+
+div#content_product h1{
+	font-family:rockwell;
+	text-align:center;
+}
+
+div#content_product p{
+	text-align:center;
+	font-family:rockwell;
+	font-size:16pt;
+}
+
+div#content_product ul.ul_pageproduk{
+	margin-top:50px;
+	width:200px;
+	margin-left:37%;
+}
+
+div#content_product li.li_pageproduk{
+	display:block;
+	padding:10px;
+	text-decoration:underline;
+	text-align:center;
+}
+
+	
+/*DROP DOWN BACKEND*/	
+div#body ul.dropdown_product{
+	position:absolute;
+	margin-top:10px;
+	color:#c30;
+	visibility:hidden;
+}
+
+div#body ul.dropdown_product li.li_product{
+	display:block;
+	text-align:center;
+	width:93px;
+	background-color:white;
+	font-size:12pt;
+	border-bottom:2px solid #c30;
+	border-right:2px solid #c30;
+	border-left:2px solid #c30;
+}
+
+div#body li.menu_atas_backend:hover ul.dropdown_product{
+	visibility:visible;
+}
+
+div#body ul.dropdown_venue{
+	position:absolute;
+	margin-top:10px;
+	color:#c30;
+	width:50px;
+	visibility:hidden;
+}
+
+div#body ul.dropdown_venue li.li_venue{
+	display:block;
+	text-align:center;
+	width:78px;
+	margin-left:105px;
+	background-color:white;
+	font-size:12pt;
+	border-bottom:2px solid #c30;
+	border-right:2px solid #c30;
+	border-left:2px solid #c30;
+}
+
+div#body li.menu_atas_backend:hover ul.dropdown_venue{
+	visibility:visible;
+}
+	
+/*MENU ATAS BACKEND*/
+div#body li.menu_atas_backend{
+	padding:20px;
+	border-right:1px dashed #c30;
+}
+div#body li.menu_atas_backend:nth-child(6){
+	border-right:none;
+}
+
+/*BACK END INDEX*/
+
+div#backend_index{
+	width:800px;
+	margin:0 auto;
+	height:450px;
+}
+
+div#backend_index h1{
+	font-family:rockwell;
+	text-align:center;
+	margin-top:50px;
+	margin-left:-100px;
+}
+
+div#login_backend{
+	border:2px solid #c30;
+	border-radius:20px/10px;
+	width:500px;
+	background-image:url(../images/reservation_background.jpg);
+	margin-top:50px;
+	padding-top:50px;
+	margin-left:100px;
+	height:150px;
+}
+
+div#login_backend p.info_login{
+	color:red;
+	border:1px solid black;
+	text-align:center;
+	margin-top:-110px;
+	font-weight:bold;
+}
+
+div#login_backend h3{
+	font-family:rockwell;
+	padding:5px;
+	margin-left:70px;
+	text-align:center;
+}
+
+div#login_backend input{
+	float:right;
+	margin-right:50px;
+	font-family:rockwell;
+}
+
+div#login_backend input.submit_backend{
+	font-size:14pt;
+	width:100px;
+	cursor:pointer;
+	margin-right:58px;
+	margin-top:10px;
+}
+
+/*CONTENT HOME BACKEND*/
+
+div#content_home_backend{
+	width:800px;
+	margin:0 auto;
+	height:300px;
+}
+div#content_home_backend h1{
+	font-family:rockwell;
+	text-align:center;
+	margin-top:90px;
+	font-size:35pt;
+}
+div#content_home_backend p{
+	margin-top:20px;
+	font-size:18pt;
+	text-align:center;
+	font-family:rockwell;
+}
+	
+/*CHECKOUT*/
+
+div#checkout{
+	height:100%;
+	width:800px;
+	margin:0 auto;
+}
+
+div#checkout img.kayu_checkout{
+	margin-left:43%;
+	width:130px;
+	height:60px;
+}
+
+div#checkout2{
+	height:100%;
+	width:700px;
+	margin-left:5%;
+	margin-bottom:100px;
+	background-image:url(../images/reservation_background.jpg);
+	border:3px solid #c30;
+	margin-top:30px;
+	border-radius:20px/10px;
+}
+
+div#checkout2 h3{
+	color:#c30;
+	text-align:center;
+	font-size:20pt;
+}
+
+div#checkout2 p{
+	font-family:rockwell;
+	text-align:center;
+	font-size:18pt;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+div#checkout2 h3 span{
+	color:black;
+}
+
+div#checkout2 h4{
+	border:3px solid #c30;
+	width:180px;
+	padding:5px;
+	font-size:12pt;
+	box-shadow:3px 3px 0px 0px;
+	margin-top:60%;
+	border-radius:10px/10px;
+	background-color:white;
+	
+}
+
+div#checkout2 a.checkout_button{
+	margin-bottom:0px;
+	margin-left:20%;
+	
+}
+
+div#checkout2 h4.checkout_button{
+	width:120px;
+	margin:0;
+	position:absolute;
+	margin-left:30%;
+	margin-top:-110px;
+	color:white;
+	background-color:#c30;
+	border:2px solid black;
+	box-shadow:2px 2px 0px 0px black;
+}
+
+div#checkout2 a{/*KALAU MAU UBAH LETAK BACK TO SHOPCART-nya*/
+	display:block;
+	height:30px;
+	margin-top:80px;
+	margin-bottom:50px;
+	width:220px;
+	margin-left:100px;
+	text-decoration:none;
+	color:black;
+}
+
+div#checkout2 h2{
+	font-family:rockwell;
+	font-weight:bold;
+	font-size:12pt;
+	text-align:right;
+	margin-top:-20px;
+	width:300px;
+	position:absolute;
+}
+
+
+
+div#checkout2 a.klik_bca{
+	display:block;
+	width:100px;
+}
+div#checkout2 a.klik_cod{
+	display:block;
+	margin-left:58%;
+	margin-top:-110px;
+}
+
+div#checkout2 img.icon_bca{
+	width:150px;
+	height:100px;
+	margin-top:-40px;
+	margin-left:50px;
+}
+
+div#checkout2 img.icon_cod{
+	width:200px;
+	height:100px;
+	float:right;
+	position:absolute;
+}
+
+	
+/*PAGINATION*/
+div#pagination a{
+	color:black;
+	font-family:rockwell;
+	font-size:12pt;
+}
+
+div#pagination{
+	margin-left:55%;
+	margin-bottom:20px;
+}
+	
+/*COMMENTS*/
+div#comment{
+	width:800px;
+	height:100%;
+	margin-bottom:100px;
+}
+div#comment table{
+	margin-top:-30px;
+	border-bottom:2px dotted #c30;
+	border-radius:10px/10px;
+}
+div#comment th{
+	color:#069;
+	padding:0;
+}
+
+div#comment th.nama{
+	width:300px;
+}
+div#comment th.comment{
+	width:800px;
+}
+
+div#comment th.date{
+	width:380px;
+}
+
+div#comment img.kayu_comment{
+	width:150px;
+	margin-left:40%;
+	margin-bottom:50px;
+}
+
+div#comment td{
+	padding:3px;
+	border-right:1px solid #c30;
+}
+div#comment td:nth-child(4){
+	border-right:none;
+}
+/*HEADER MOUSEOVER*/
+div#body ul.ul_mouseover_contactus2 li.li_mouseover_contactus2{
+	display:block;
+	padding:8px;
+	margin-top:-6px;
+	position:relative;
+	border-bottom:4px solid #c30;
+	border-right:1px solid #c30;
+	border-left:1px solid #c30;
+}
+div#body ul.ul_mouseover_contactus2{
+	position:absolute;
+	z-index:999;
+	margin-top:5px;
+	margin-left:50.6%;
+	border:1px solid black;
+	background:white;
+	width:100px;
+	visibility:hidden;
+}
+
+div#body li.li_contactus2{
+	padding:2px;
+	margin-left:3%;
+}
+
+div#body li.li_contactus2:hover ul.ul_mouseover_contactus2{
+	visibility:visible;
+}
+
+
+div#body a.breadcrumb{
+	color:#930;
+}
+
+div#body a.breadcrumb:hover{
+	color:#F33;
+	
+}
+div#body a.breadcrumb:active{
+	color:black;
+}
+
+div#body h6{
+	color:#903;
+	font-size:11pt;
+	margin-left:13%;
+	position:absolute;
+	margin-top:-50px;
+	font-family:rockwell;
+	width:25%;
+}
+
+div#body li.li_about{
+	padding:10px;
+	margin-left:15px;
+	margin-right:10px;
+}
+
+div#body ul.ul_mouseover li.li_mouseover{
+	display:block;
+	padding:8px;
+	margin-top:-7px;
+	position:relative;
+	border-bottom:4px solid #c30;
+	border-right:1px solid #c30;
+	border-left:1px solid #c30;
+}
+div#body ul.ul_mouseover{
+	position:absolute;
+	z-index:999;
+	margin-top:7px;
+	margin-left:39%;
+	background:white;
+	width:100px;
+	visibility:hidden;
+}
+div#body ul.ul_mouseover_contactus li.li_mouseover_contactus{
+	display:block;
+	padding:8px;
+	margin-top:-6px;
+	position:relative;
+	border-bottom:4px solid #c30;
+	border-right:1px solid #c30;
+	border-left:1px solid #c30;
+}
+div#body ul.ul_mouseover_contactus{
+	position:absolute;
+	z-index:999;
+	margin-top:5px;
+	margin-left:46%;
+	border:1px solid black;
+	background:white;
+	width:100px;
+	visibility:hidden;
+}
+
+div#body li.li_contactus{
+	padding:2px;
+	margin-left:3%;
+}
+
+div#body li.li_contactus:hover ul.ul_mouseover_contactus{
+	visibility:visible;
+}	
+div#body li.li_about:hover ul.ul_mouseover{
+	visibility:visible;
+}	
+	
+/*SUCCESS REGISTRATION*/
+div#container_success{
+	width:900px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#success h1.contact{
+	font-size:35pt;
+}
+
+div#success h2.contact{
+	font-size:20pt;
+}
+
+div#success{
+	width:700px;
+	height:300px;
+	border:2px solid black;
+	background-image:url(../images/reservation_background.jpg);
+	margin-left:9%;
+	margin-bottom:50px;
+	margin-top:40px;
+	border-radius:20px/10px;
+}
+
+div#success h1{
+	text-align:center;
+	font-family:rockwell;
+	margin-top:20px;
+	font-size:25pt;
+	color:#c30;
+}
+
+div#success h2{
+	text-align:center;
+	color:#c30;
+	font-size:25px;
+}
+
+div#success p{
+	font-size:18pt;
+	color:#c30;
+	font-family:rockwell;
+	margin-top:50px;
+	text-align:center;
+}
+
+div#success h3.back_home_contact {
+	text-decoration:none;
+	border:1px solid black;
+	background-color:white;
+	border-radius:10px/10px;
+	font-size:12pt;
+	padding:5px;
+	box-shadow:2px 2px 0px 0px black;
+	width:120px;
+	margin-top:15px;
+	margin-left:28%;
+	position:absolute;
+}
+
+div#success h3.back_home{
+	text-decoration:none;
+	border:1px solid black;
+	background-color:white;
+	border-radius:10px/10px;
+	font-size:12pt;
+	padding:5px;
+	box-shadow:2px 2px 0px 0px black;
+	width:115px;
+	margin-top:50px;
+	margin-left:120px;
+	position:absolute;
+}
+
+div#success h3.back_home_contact a{
+	color:#c30;
+	text-decoration:none;
+}
+
+div#success h3.back_home a{
+	color:#c30;
+	text-decoration:none;
+}
+
+div#success h3.login_now{
+	background-color:#c30;
+	box-shadow:2px 2px 0px 0px black;
+	padding:5px;
+	float:right;
+	margin-right:130px;
+	margin-top:50px;
+	width:150px;
+	font-size:12pt;
+	border:1px solid black;
+	border-radius:10px/10px;
+	text-align:center;
+}
+
+div#success h3.login_now a{
+	color:#fff;
+	text-decoration:none;
+}	
+	
+/*RESERVATION*/
+div#body img.kayu_reservation{
+	height:60px;
+	margin-left:43.5%;
+}
+
+div#reservation{
+	width:700px;
+	height:100%;
+	margin-bottom:50px;
+	padding-top:5px;
+	margin-top:10px;
+	margin-left:10%;
+	border: 2px solid #c30;
+	border-radius:20px/10px;
+	overflow:hidden;
+	background-image:url(../images/reservation_background.jpg);
+}
+
+div#reservation ul.reserve li{
+	display:block;
+	padding:5px;
+	margin-left:25%;
+}
+
+div#reservation img.logo_information{
+	width:18px;
+	height:18px;
+	position:absolute;
+	margin-top:2px;
+	cursor:pointer;
+}
+
+div#reservation p#p_information{
+	position:absolute;
+	background-color:#000;
+	opacity:0.8;
+	color:white;
+	margin-top:-40px;
+	margin-left:150px;
+	visibility:hidden;
+	width:180px;
+	font-size:12pt;
+}
+
+div#reservation p.p_reservation{
+	width:800px;
+	color:#c30;
+	margin-bottom:5px;
+	font-size:13pt;
+	font-family:rockwell;
+	text-align:center;
+	font-weight:bold;
+	margin-left:-50px;
+}
+
+div#reservation h1.p_info2{
+	position:absolute;
+	font-size:12pt;
+	font-weight:100;
+	background-color:black;
+	opacity:0.8;
+	color:#fff;
+	width:230px;
+	margin-left:230px;
+	margin-top:-40px;
+	visibility:hidden;
+}
+
+div#reservation ul.reserve li input{
+	width:15em;
+	float:right;
+	margin-right:30%;
+}
+
+div#reservation ul.reserve li select.select1{
+	margin-left:90px;
+}
+div#reservation ol.terms{
+	margin-left:60px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+div#reservation ol.terms li{
+	font-family:rockwell;
+	font-size:10pt;
+}
+
+div#reservation input.reset_reservation{
+	font-size:13pt;
+	font-family:rockwell;
+	cursor:pointer;
+	margin-bottom:20px;
+	margin-left:160px;
+	margin-right:200px;
+	border-radius:10px/10px;
+	border:2px solid #c30;
+	box-shadow:1px 1px 0px 0px;
+	width:80px;
+	background-color:#fff;
+}
+
+div#reservation input.submit_reservation{
+	font-size:13pt;
+	font-family:rockwell;
+	cursor:pointer;
+	border-radius:10px/10px;
+	width:80px;
+	border:2px solid #000;
+	box-shadow:1px 1px 0px 0px;
+	background-color:#c30;
+	color:#fff;
+}
+/*COMMENTS*/
+div#comment{
+	width:800px;
+	height:100%;
+	margin-bottom:100px;
+}
+div#comment table{
+	margin-top:-30px;
+	border-bottom:2px dotted #c30;
+	border-radius:10px/10px;
+}
+div#comment th{
+	color:#069;
+	padding:0;
+	font-size:11pt;
+}
+
+div#comment th.nama{
+	width:300px;
+}
+div#comment th.comment{
+	width:800px;
+}
+
+div#comment th.date{
+	width:380px;
+}
+
+div#comment img.kayu_comment{
+	width:125px;
+	margin-left:43%;
+	margin-bottom:50px;
+	height:50px;
+}
+
+div#comment td{
+	padding:3px;
+	font-size:11pt;
+	border-right:1px solid #c30;
+}
+div#comment td:nth-child(4){
+	border-right:none;
+}
+	
+/*CONTACT US*/
+div#container_contactus{
+	margin:0 auto;
+	width:800px;
+	height:100%;
+}
+div#body img.kayu_contact_us{
+	margin-left:44%;
+	height:55px;
+}
+
+div#contact_us{
+	width:825px;
+	margin-left:-13px;
+	height:450px;
+	margin-top:20px;
+	border-radius:10px/25px;
+	border-bottom:2px solid #963;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+div#contact_us p.p_atas{
+	color:#c30;
+	font-family:rockwell;
+	text-align:right;
+	width:785px;
+	font-weight:bold;
+	font-size:12pt;
+}
+div#contact_us p.p_atas2{
+	color:black;
+	font-family:rockwell;
+	text-align:center;
+	width:450px;
+	margin-left:380px;
+	font-size:10.5pt;
+}
+
+div#kiri_contact h3{
+	font-family:rockwell;
+	text-align:center;
+	margin-bottom:5px;
+	color:#960;
+	width:350px;
+	font-size:12pt;
+}
+
+div#kiri_contact{
+	width:250px;
+	margin-left:6%;
+	height:100%;
+	position:relative;
+	margin-top:-73px;
+}
+
+div#kiri_contact p{
+	font-family:rockwell;
+	margin-bottom:15px;
+	font-size:11pt;
+	margin-left:25px;
+}
+div#kiri_contact img.logo_contactkiri{
+	position:absolute;
+	height:18px;
+	width:18px;
+}
+
+div#googleMap{
+	width:310px;
+	height:200px;
+}
+div#kanan_contact{
+	border:3px solid #c30;
+	border-right:none;
+	border-radius:10px/10px;
+	width:400px;
+	height:290px;
+	margin-top:-360px;
+	margin-left:400px;
+	position:absolute;
+	overflow:hidden;
+	padding-left:15px;
+}
+
+div#kanan_contact ul.contactus li{
+	display:block;
+	padding:3px;
+	margin-left:30px;
+}
+
+div#kanan_contact ul.contactus li input{
+	width:200px;
+	float:right;
+	margin-right:80px;
+}
+
+div#kanan_contact ul.contactus li textarea{
+	float:right;
+	margin-right:25px;
+}
+
+div#kanan_contact p{
+	width:200px;
+	margin-top:5px;
+	margin-bottom:5px;
+	width:380px;
+	text-align:center;
+	font-family:rockwell;
+	color:#c30;
+	font-size:13pt;
+}
+
+div#kanan_contact input.tombol_reset_contact{
+	margin-top:14px;
+	margin-left:60px;
+	margin-right:100px;
+	font-family:rockwell;
+	border:2px solid #c30;
+	box-shadow:1px 1px 0px 0px;
+	width:70px;
+	border-radius:10px/10px;
+	font-size:12pt;
+	cursor:pointer;
+	background-color:#fff;
+	color:#000;
+}
+
+div#kanan_contact input.tombol_submit_contact{
+	font-family:rockwell;
+	border:2px solid black;
+	box-shadow:1px 1px 0px 0px;
+	width:70px;
+	border-radius:10px/10px;
+	font-size:12pt;
+	cursor:pointer;
+	background-color:#F00;
+	color:#fff;
+}
+	
+/*REGISTRATION CONFIRMATION*/
+div#registration p.info_form{
+	
+	color:red;
+	font-size:16pt;
+	position:relative;
+	margin-top:-270px;
+	margin-left:110px;
+	font-weight:bold;
+	position:relative;
+	font-family:rockwell;
+}
+
+
+div#body img.kayu_regis_confirm{
+	height:60px;
+	margin-left:42%;
+}
+
+div#regis_confirm{
+	width:60%;
+	height:300px;
+	margin-bottom:50px;
+	margin-top:10px;
+	margin-left:10%;
+}
+
+div#data_confirm{
+	margin:0 auto;
+	width:700px;
+	height:100%;
+	border:2px solid black;
+	border-radius:10px/10px;
+	padding-bottom:20px;
+	background-image:url(../images/reservation_background.jpg);
+}
+
+div#data_confirm p{
+	font-family:rockwell;
+	color:#000;
+	font-size:14pt;
+	text-align:left;
+	padding:5px;
+}
+
+div#data_confirm label{
+	font-family:rockwell;
+	color:#c30;
+	font-size:14pt;
+	float:left;
+	width:7em;
+	padding:5px;
+	margin-left:180px;
+}
+
+div#data_confirm input.tombol_cancel_regis{
+	margin-top:20px;
+	box-shadow:1px 1px 0px 0px;
+	margin-left:150px;
+	font-size:11pt;
+	border-radius:10px/10px;
+	margin-right:250px;
+	font-family:rockwell;
+	background-color:#fff;
+	color:#000;
+	border-color:red;
+	padding:5px;
+	cursor:pointer;
+}
+
+div#data_confirm input.tombol_confirm_regis{
+	box-shadow:1px 1px 0px 0px;
+	font-size:11pt;
+	border-radius:10px/10px;
+	font-family:rockwell;
+	background-color:#c30;
+	color:#fff;
+	border-color:black;
+	padding:5px;	
+	cursor:pointer;
+}	
+	
+	
+/*HEADER*/
+div#header p{
+	position:relative;
+	margin-top:-150.5px;
+	margin-right:3px;
+	color:#fff;
+	float:right;
+	font-size:13pt;
+	border-bottom:1px dashed white;
+}
+
+div#header p.welcome{
+	float:right;
+	position:relative;
+	margin-top:-60px;
+	margin-right:50px;
+	border-bottom:none;
+}
+
+div#header p.welcome span{
+	font-weight:bold;
+}
+
+div#header a{
+	color:#fff;
+	text-decoration:none;
+}
+
+div#header img.tombol_shoppingcart{
+	height:30px;
+	width:140px;
+	position:relative;
+	margin-top:-118px;
+	float:right;
+	margin-right:5px;
+}
+
+div#header img.kaca_pembesar{
+	width:45px;
+	height:30px;
+	position:absolute;
+	margin-left:96.7%;
+	margin-top:-30px;
+}
+
+div#header input{
+	height:20px;
+	background-color:#fff;
+	float:right;
+	width:11.5%;
+	margin-top:-28px;
+	position:absolute;
+	margin-left:85.2%;
+}
+
+/*SHOPPING CART */
+div#body img.kayu_shopcart{
+	margin-left:41%;
+	height:55px;	
+}
+
+div#cart_list img.tombol_up{
+	width:30px;
+	padding:none;
+	margin:none;
+	height:30px;
+	border:none;
+}
+div#cart_list img.tombol_down{
+	-webkit-transform:rotate(180deg);
+	width:30px;
+	padding:none;
+	margin:none;
+	height:30px;
+	border:none;
+}
+div#cart_list img.tombol_delete{
+	width:30px;
+	padding:none;
+	margin:none;
+	height:30px;
+	border:none;
+}
+
+
+#cart_list{
+	margin:0 auto;
+	border:1px solid #c30;
+	border-radius:20px/10px;
+	padding-bottom:20px;
+	padding-right:10px;
+	padding-left:10px;
+	width:750px;
+	
+}
+th{
+	font-family:rockwell;
+	padding:20px;
+	text-align:center;
+	border-bottom:2px solid red;
+}
+table{
+	border-bottom:1px dotted red;
+}
+td{
+	font-family:rockwell;
+	padding:10px;
+	text-align:center;
+	height:100%;
+	width:150px;
+}
+
+td img{
+	border:1px solid #c30;
+	border-radius:10px/10px;
+}
+
+div#cart_list p
+{
+	float:right;
+	margin:0 auto;
+	margin-right:45px;
+	margin-top:4%;
+	color:#C30;
+	font-family:rockwell;
+	font-weight:bold;
+}
+div#cart_list p span
+{
+	color:#000000;
+	font-size:14pt;
+}
+
+div#cart_list h1{
+	margin-top:30px;
+	font-size:12pt;
+	font-family:rockwell;
+	text-align:center;
+	margin-left:0 auto;
+	position:absolute;
+}
+
+div#cart_list button
+{
+	font-size:11pt;
+	margin-top:15px;
+	font-family:rockwell;
+	margin-left:14%;
+	cursor:pointer;
+	box-shadow:1.5px 1.5px 0px;
+}
+
+div#body p.tombol_pada_shopcart
+{
+	margin-top:50px;
+	margin-bottom:200px;
+	font-family:rockwell;
+	margin-left:15.5%;
+	text-align:center;
+	font-size:11pt;
+	border:2px solid #c30;;
+	border-radius:10px/10px;
+	box-shadow:2px 2px 0px 0px;
+	float:left;
+	padding:5px;
+	background-color:#fff;
+	color:#000;
+}
+div#body p.tombol_pada_shopcart2
+{
+	margin-top:20px;
+	font-family:rockwell;
+	text-align:center;
+	font-size:11pt;
+	border:2px solid black;
+	border-radius:10px/10px;
+	margin-right:28.5%;
+	padding:5px;
+	background-color:red;
+	color:#ffffff;
+	float:right;
+	box-shadow:2px 2px 0px 0px;
+}
+
+#container_cart
+{
+	margin-bottom:150px;
+}
+
+div#cart_list img.image_shopcart{
+	height:80px;
+	width:120px;
+}
+
+div#tombol_shopcart{
+	width:1100px;
+	margin:0 auto;
+}
+
+
+
+/*ABOUT US*/
+div#about_us a.back_to_top{
+	margin-left:85%;
+	font-size:14pt;
+	position:relative;
+}
+
+
+div#body img.kayu_menu_about{
+	height:50px;
+	margin-left:44%;
+}
+
+div#about_us{
+	margin-top:10px;
+	width:780px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}
+div#about_us img{
+	border-radius:20px/10px;
+	border:1px solid #c30;
+	margin-left:100px;
+	width:600px;
+}
+
+div#about_us p{
+	font-family:rockwell;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:10px;
+	font-size:13pt;
+	margin-bottom:-10px;
+}
+
+div#about_us img.garis_about{
+	border:none;
+	margin-left:12%;
+	position:relative;
+}
+
+div#about_us img.kayu_video{
+	border:none;
+	width:15%;
+	margin-left:44%;
+	margin-top:-23px;
+	height:55px;
+}
+div#about_us video
+{
+	margin-left:15%;
+	margin-top:20px;
+}
+
+div#about_us p.judul_video{
+	color:#c30;
+	font-size:14pt;
+	font-weight:bold;
+	margin-left:3%;
+}
+
+div#venues{
+	margin-top:20px;
+	margin-left:5px;
+	width:770px;
+	height:100%;
+	border:4px solid #c30;
+	overflow:hidden;
+	border-radius:20px/10px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+div#venues ul li.about h1{
+	text-align:center;
+	font-family:rockwell;
+	font-size:16pt;
+	margin-top:-90px;
+	margin-left:20px;
+	position:absolute;
+	width:16.5%;
+	overflow:hidden;
+}
+
+div#venues ul{
+	padding:0px;
+}
+
+div#venues ul li.about img{
+	width:200px;
+	height:250px;
+	margin-left:0px;
+	border:4px solid #960;
+}
+
+div#venues ul li.about{ /*DIKASIH CLASS, ADA YANG KETIBAN!*/
+	display:inline-block;
+	width:210px;
+	padding:20px;
+}
+
+div.test{
+	opacity:1;
+}
+
+.gambar {
+	width:250px;
+	height:360px;
+}
+.info {
+	position:absolute;
+	margin-top:-77px;
+	overflow:hidden;
+	border-radius:20px/10px;
+	margin-left:4px;
+	width:200px;
+	height:75px;
+	background-color:rgba(20,20,20,0.7);
+	-webkit-transition:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
+	opacity:0;
+}
+.gambar:hover .info{
+	opacity:1;
+}
+
+.headline{
+	position:absolute;
+	font-family:rockwell;
+	font-size:10pt;
+	color:white;
+	position:absolute;
+	transition:ease-in;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left:-100px;
+	text-align:left;
+	font-weight:100;
+}
+.gambar:hover .headline{
+	margin-left:20px;
+}
+
+
+/*LIGHT-BOX!!*/
+div#registration{
+	background-image:url(../images/reservation_background.jpg);
+	border:1px solid red;
+	border-radius:10px/10px;
+	height:250px;
+	padding:10px;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	padding-left:50px;
+	margin-bottom:100px;
+	padding-bottom:60px;
+	overflow:hidden;
+}
+
+div#body img.kayu_menu_regis
+{
+	margin-left:42%;
+	height:60px;
+	width:180px;
+}
+
+div#registration form{
+	position:relative;
+	height:280px;
+}
+
+div#registration form ul li{
+	display:block;
+	padding:6px;
+	margin-right:360px;
+	font-size:13pt;
+}
+
+div#registration form ul li input{
+	width:16em;
+	float:right;
+}
+
+div#registration form textarea{
+	float:right;
+	margin-top:-165px;
+	margin-right:4%;
+}
+
+div#registration .tombol_submit
+{
+	margin-left:70%;
+	background-color:red;
+	color:#fff;
+	width:15%;
+	height:35px;
+	padding:5px;
+	border-radius:10px/10px;
+	box-shadow:1px 1px 0px 0px #000;
+	margin-top:50px;
+	font-family:rockwell;
+	font-size:13pt;
+	cursor:pointer;
+	position:absolute;
+}
+
+div#registration .tombol_reset
+{
+	margin-left:10%;
+	font-family:rockwell;
+	background-color:#09C;
+	color:#fff;
+	height:35px;
+	font-size:13pt;
+	border-radius:10px/10px;
+	padding:5px;
+	width:15%;
+	cursor:pointer;
+	margin-top:50px;
+	position:absolute;
+	box-shadow:1px 1px 0px 0px #000;
+}
+.tulisan_required
+{
+ 	margin-top:-70px;
+	margin-right:8%;
+	font-family:rockwell;
+	color:#c30;
+	font-size:16pt;
+	font-weight:100;
+	text-align:center;
+}
+
+#registration p.alamat_regis{
+	margin-left:53%;
+	margin-top:-190px;
+	font-family:rockwell;
+	font-size:13pt;
+	position:absolute;
+}	
+
+/*PRODUCT DETAIL*/
+
+div#product_detail img.gambar_samping{
+	width:300px;
+	height:200px;
+}
+	
+div#product_detail h3.back_to{
+	text-align:center;
+	margin-right:68%;
+	margin-top:70px;
+	font-family:rockwell;
+	font-size:13pt;
+}
+
+div#product_detail h3.back_to a{
+	text-decoration:none;
+	color:#930;
+}
+
+div#product_detail h3.back_to a:hover{
+	color:#c30;
+}
+
+div#product_detail h3.back_to a:active{
+	color:#000000;
+}
+
+#product_detail{
+	height:100%;
+	margin-left:15%;
+	margin-top:50px;
+	margin-bottom:130px;
+	width:80%;
+}
+
+div#product_desc{
+	margin-left:300px;
+	margin-top:-240px;
+	width:60%;
+}
+
+div#product_desc h3
+{
+	font-family:rockwell;
+	font-weight:100;
+	color:#C03;
+	padding-bottom:20px;
+	border-bottom:2px solid black;
+	width:78%;
+	border-bottom-color:#C33;
+	box-shadow:0px 1px 0px black;
+	margin-bottom:20px;
+}
+
+div#product_desc p
+{
+	font-family:rockwell;
+	color:#C03;
+	font-size:14pt;
+	padding-bottom:20px;
+	border-bottom:2px solid black;
+	width:78%;
+	border-bottom-color:#C33;
+	box-shadow:0px 1px 0px black;
+	margin-bottom:20px;
+}
+
+div#product_desc span.deskripsi{
+	color:black;
+	font-size:12.5pt;
+	display:block;
+	font-weight:100;
+	text-align:left;
+	font-family:rockwell;
+	margin-left:40%;
+	margin-top:-20px;
+	width:70%;
+	
+}
+
+
+div#product_detail img
+{
+	margin-left:-5%;
+	
+}
+
+div#product_desc img.komposisi{
+	border:none;
+	height:5%;
+	width:4%;
+	margin-left:100px;
+	margin-top:-67px;
+	position:absolute;
+}
+
+div#product_detail img.addtocart_button
+{
+	height:30px;
+	border:2px solid black;
+	border-radius:0px/0px;
+	margin-left:30%;
+	width:25%;
+}
+
+#nama_product
+{
+	width:350px;
+}
+
+div#nama_product h1{
+	color:black;
+	margin-top:10px;
+	font-size:18pt;
+	text-align:center;
+	font-family:rockwell;
+	font-weight:100;
+	margin-left:-32%;
+}
+
+.lightbox
+{
+	display:none;
+	position:fixed;
+	z-index:9999;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-align:center;
+	background:rgba(0,0,0,0.8);
+	cursor:default;
+	
+}
+
+div#product_detail img.gambar_popup{
+	cursor:default; 
+	width:700px; 
+	height:450px;
+	margin-top:120px;
+	margin-left:5%;
+}
+
+div#product_detail img.lightbox{
+	max-width:90%;
+	max-height:80%;
+	margin-top:2%;
+}
+
+.lightbox:target
+{
+	display:block;
+	outline:none;
+}
+
+div#product_desc span.deskripsi_harga{
+	color:black;
+	font-size:13pt;
+	display:block;
+	font-weight:100;
+	text-align:left;
+	font-family:rockwell;
+	margin-left:50%;
+	margin-top:-20px;
+	width:35%;
+	
+}
+
+/*LOGIN_FORM*/
+div#login_form{
+	border-radius:20px/10px;
+	width:800px;
+	margin:0 auto;
+	height:425px;
+	margin-top:20px;
+	margin-bottom:50px;
+	overflow:hidden;
+	background-image:url(../images/login_form.jpg);
+}
+
+div#login_kanan{
+	width:250px;
+	height:530px;
+	margin-left:620px;
+}
+
+div#login_kanan p.info_login{
+	color:yellow;
+	font-family:rockwell;
+	position:absolute;
+	margin-top:-250px;
+	font-size:11pt;
+}
+
+div#login_kanan form
+{
+	margin-top:70px;
+}
+
+div#login_kanan label
+{
+	margin-left:10px;
+	color:#ffffff;
+	font-size:20px;
+}
+
+div#login_kanan input
+{
+	margin-left:10px;
+	height:22px;
+	width:150px;
+}
+
+div#login_kanan input.submit_button
+{
+	margin-top:20px;
+	margin-left:100px;
+	width:60px;
+	height:25px;
+	font-family:myriad;
+	font-size:14pt;
+	color:#c30;
+	border-radius:5px/10px;
+	border:2px solid black;
+	background-color:white;
+	cursor:pointer;
+}
+
+div#login_kanan p.login_forgot
+{
+	color:#ffffff;
+	margin-left:20px;
+	margin-top:60px;
+}
+
+div#login_kanan p.login_forgot2
+{
+	color:#ffffff;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+div#login_kanan a{
+	text-decoration:underline;
+	color:white;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+div#backg{
+	background-image:url(../images/wood-background.png);
+	margin-top:-10px;
+	margin-bottom:-15px;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+div#header img{
+	height:150px;
+	width:100%;
+	
+}
+
+#body .menu_diatas{
+	width:100%;
+	margin-left:0%;
+}
+
+#body{
+	border:1px solid white;
+	width:85%;
+	height:100%;
+	margin:0 auto;
+	background-color:white;
+	overflow:hidden;
+	
+	
+}
+
+div#body ul.menu_atas{
+	margin-top:15px;
+	margin-left:17%;
+	margin-right:50%;
+	width:80%;
+}
+
+div#body ul li{
+	display:inline;
+	padding:4.5%;
+	font-family:rockwell;
+	font-size:13pt;
+	
+}
+
+div#body ul li a{
+	text-decoration:none;
+	color:#C03;
+}
+
+div#body ul li a:hover{
+	color:black;
+}
+
+div#body ul li a:active{
+	color:#F00;
+}
+
+div#body img.garismenu{
+	margin-left:5%;
+	width:90%;
+}
+
+div#body img.kayu{
+	margin-left:42%;
+	height:88px;
+	width:18%;
+}
+
+#header{
+	height:130px;
+}
+
+div#header input.searchbar{
+	float:right;
+	margin-top:-100px;
+	position:relative;
+	margin-right:100px;
+}
+
+
+div#recommendation img.gambar_rekom
+{
+	width:100%;
+	height:100px;
+	border:2px solid #c30;
+	border-radius:10px/10px;
+}
+
+div#recommendation
+{
+	
+	margin-top:20px;
+	padding-top:0px;
+	margin-left:9%;
+	border-radius:10px/10px;
+	border:3px #C63 solid;
+	margin-right:8%;
+	padding-bottom:-200px;
+	margin-bottom:50px;
+}
+
+
+div#recommendation ul li{
+	display:inline-block;
+		width:22%;
+}
+div#recommendation ul li img{
+	margin-top:-20px;
+	margin-bottom:10px;
+}
+
+div#recommendation ul li img:hover{
+	-webkit-filter:brightness(110%);
+}
+
+div#recommendation ul{
+	margin-left:5%;
+	list-style:none;
+}
+
+p.rekom{
+	text-align:center;
+	width:150%;
+	margin-left:-35px;
+}
+
+div#recommendation ul li img.addtocart_button{
+	border-radius:0px/0px;
+	margin-top:10px;
+	height:25px;
+	margin-left:20%;
+	border:2px solid black;
+	width:60%;
+	padding:0;
+}
+
+div#footer img{
+	height:130px;
+	width:100%;
+
+	position:relative;
+}
+
+div#menu_all a.back_to_top{
+	margin-left:85%;
+	font-size:14pt;
+	position:relative;
+	color:#c30;
+}
+
+div#menu_all
+{
+	margin-top:20px;
+	padding-top:0px;
+	margin-left:10%;
+	margin-right:80px;
+	padding-bottom:-200px;
+	margin-bottom:50px;
+	height:100%;
+}
+
+img.gambar_menu
+{
+	width:100%;
+	height:100px;
+}
+
+div#menu_all ul li{
+	display:inline-block;
+	width:22%;
+}
+div#menu_all ul li img{
+	border-radius:10px/10px;
+	margin-top:-20px;
+	margin-bottom:10px;
+	border:2px #c30 solid;
+}
+div#menu_all ul li img:hover{
+	-webkit-filter:brightness(110%);
+}
+
+div#menu_all ul{
+	margin-left:3%;
+	list-style:none;
+}
+
+div#menu_all ul li img.addtocart_button{
+	border-radius:0px/0px;
+	margin-top:10px;
+	height:25px;
+	margin-left:20%;
+	padding:0px;
+	width:60%;
+}
+div#body img.kayu_menu{
+	margin-left:44%;
+	height:55px;
+}
+
+div#body img.kayu_menu_login{
+	margin-left:44%;
+	height:65px;
+}
+
+div#submenu ul li
+{
+	padding:3.5%;
+}
+div#submenu ul li a
+{
+	text-align:center;
+	margin-left:3%;
+	margin-right:-3.5%;
+}
+div#submenu ul li:before
+{
+	content:"|";	
+}
+div#submenu ul li:first-child:before
+{
+	content:none;
+}
+
+div#submenu ul
+{
+	margin-left:17%;
+	width:75%;
+}
+div#submenu{
+	margin-top:10px;
+	height:20px;
+	margin-right:10%;
+}
+
+div#body img.garissubmenu{
+	margin-left:13%;
+	width:75%;
+}    
+}
+
+@media only screen and (min-width: 0px) and (max-width:800px){
+/*SUCCESS REGISTRATION*/
+div#container_success{
+	width:600px;
+	height:100%;
+	margin:0 auto;
+}
+
+div#success{
+	width:600px;
+	height:260px;
+	border:2px solid black;
+	background-image:url(../images/reservation_background.jpg);
+	margin-bottom:50px;
+	margin-top:20px;
+	border-radius:20px/10px;
+}
+
+div#success h1{
+	text-align:center;
+	font-family:rockwell;
+	margin-top:20px;
+	font-size:30pt;
+	color:#c30;
+}
+
+div#success h2{
+	text-align:center;
+	color:#c30;
+	font-size:20px;
+}
+
+div#success p{
+	font-size:12pt;
+	color:#c30;
+	font-family:rockwell;
+	margin-top:20px;
+	text-align:center;
+}
+
+div#success h3.back_home{
+	text-decoration:none;
+	border:1px solid black;
+	background-color:white;
+	border-radius:10px/10px;
+	font-size:12pt;
+	padding:5px;
+	box-shadow:2px 2px 0px 0px black;
+	width:120px;
+	margin-top:80px;
+	margin-left:120px;
+	position:absolute;
+}
+
+div#success h3.back_home a{
+	color:#c30;
+	text-decoration:none;
+}
+
+div#success h3.login_now{
+	background-color:#c30;
+	box-shadow:2px 2px 0px 0px black;
+	padding:5px;
+	float:right;
+	margin-right:130px;
+	margin-top:80px;
+	width:120px;
+	font-size:12pt;
+	border:1px solid black;
+	border-radius:10px/10px;
+	text-align:center;
+}
+
+div#success h3.login_now a{
+	color:#fff;
+	text-decoration:none;
+}	
+	
+/*RESERVATION*/
+div#body img.kayu_reservation{
+	height:50px;
+	margin-left:43%;
+}
+
+div#reservation{
+	width:600px;
+	height:100%;
+	margin-bottom:100px;
+	padding-bottom:20px;
+	margin-top:40px;
+	margin-left:7%;
+	border: 2px solid #c30;
+	border-radius:20px/10px;
+	overflow:hidden;
+	background-image:url(../images/reservation_background.jpg);
+}
+
+div#reservation ul.reserve li{
+	display:block;
+	padding:5px;
+	margin-left:25%;
+}
+
+div#reservation img.logo_information{
+	width:18px;
+	height:18px;
+	position:absolute;
+	margin-top:2px;
+	cursor:pointer;
+}
+
+div#reservation p#p_information{
+	position:absolute;
+	background-color:#000;
+	opacity:0.8;
+	color:white;
+	margin-top:-40px;
+	margin-left:150px;
+	visibility:hidden;
+	width:180px;
+	font-size:12pt;
+}
+
+div#reservation p.p_reservation{
+	margin-top:20px;
+	width:350px;
+	color:#c30;
+	font-size:13pt;
+	text-align:center;
+	font-weight:bold;
+}
+
+div#reservation h1.p_info2{
+	position:absolute;
+	font-size:12pt;
+	font-weight:100;
+	background-color:black;
+	opacity:0.8;
+	color:#fff;
+	width:230px;
+	margin-left:230px;
+	margin-top:-40px;
+	visibility:hidden;
+}
+
+div#reservation ul.reserve li input{
+	width:9em;
+	float:right;
+	margin-right:39%;
+}
+
+div#reservation ul.reserve li select.select1{
+	margin-left:82px;
+}
+div#reservation ol.terms{
+	margin-left:60px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+div#reservation ol.terms li{
+	font-family:rockwell;
+	font-size:10pt;
+}
+
+div#reservation input.reset_reservation{
+	font-size:13pt;
+	font-family:rockwell;
+	cursor:pointer;
+	margin-left:120px;
+	margin-right:200px;
+	border-radius:10px/10px;
+	border:2px solid #c30;
+	box-shadow:1px 1px 0px 0px;
+	width:80px;
+	background-color:#fff;
+}
+
+div#reservation input.submit_reservation{
+	font-size:13pt;
+	font-family:rockwell;
+	cursor:pointer;
+	border-radius:10px/10px;
+	width:80px;
+	border:2px solid #000;
+	box-shadow:1px 1px 0px 0px;
+	background-color:#c30;
+	color:#fff;
+}	
+	
+/*CONTACT US*/
+div#container_contactus{
+	margin:0 auto;
+	width:800px;
+	height:100%;
+}
+div#body img.kayu_contact_us{
+	margin-left:43%;
+	height:70px;
+}
+
+div#contact_us{
+	width:800px;
+	height:100%;
+	margin-bottom:80px;
+	margin-left:;
+	margin-top:40px;
+}
+div#kiri_contact{
+	width:350px;
+	margin-left:10%;
+	height:100%;
+}
+
+div#kiri_contact p{
+	font-family:rockwell;
+	margin-bottom:12px;
+	font-size:10pt;
+	margin-left:25px;
+}
+div#kiri_contact img.logo_contactkiri{
+	position:absolute;
+	height:20px;
+	width:20px;
+}
+
+div#googleMap{
+	width:250px;
+	height:150px;
+}
+div#kanan_contact{
+	border:3px solid #c30;
+	border-right:none;
+	border-radius:10px/10px;
+	width:300px;
+	height:250px;
+	margin-top:-250px;
+	margin-left:350px;
+	position:absolute;
+	overflow:hidden;
+	padding-left:15px;
+}
+
+div#kanan_contact ul.contactus li{
+	display:block;
+	padding:3px;
+}
+
+div#kanan_contact ul.contactus li input{
+	width:150px;
+	float:right;
+	margin-right:80px;
+}
+
+div#kanan_contact ul.contactus li textarea{
+	float:right;
+	margin-top:10px;
+	margin-right:32px;
+	width:200px;
+	height:100px;
+}
+
+div#kanan_contact p{
+	margin-top:110px;
+	width:200px;
+	font-family:rockwell;
+	color:#c30;
+	font-size:10pt;
+}
+
+div#kanan_contact input.tombol_reset_contact{
+	margin-top:12px;
+	margin-left:40px;
+	margin-right:100px;
+	font-family:rockwell;
+	border:2px solid #c30;
+	box-shadow:1px 1px 0px 0px;
+	width:50px;
+	border-radius:10px/10px;
+	font-size:10pt;
+	cursor:pointer;
+	background-color:#fff;
+	color:#000;
+}
+
+div#kanan_contact input.tombol_submit_contact{
+	font-family:rockwell;
+	border:2px solid black;
+	box-shadow:1px 1px 0px 0px;
+	width:50px;
+	border-radius:10px/10px;
+	font-size:10pt;
+	cursor:pointer;
+	background-color:#F00;
+	color:#fff;
+}
+	
+	
+/*HEADER*/
+div#header p{
+	position:relative;
+	margin-top:-100px;
+	margin-right:10px;
+	color:#fff;
+	float:right;
+	font-size:11pt;
+	border-bottom:1px dashed white;
+}
+
+div#header a{
+	color:#fff;
+	text-decoration:none;
+}
+
+div#header img.tombol_shoppingcart{
+	height:20px;
+	width:90px;
+	position:relative;
+	margin-top:-65px;
+	float:right;
+	margin-right:5px;
+}
+
+div#header img.kaca_pembesar{
+	width:30px;
+	height:20px;
+	position:absolute;
+	margin-left:95.7%;
+	margin-top:-23px;
+}
+
+div#header input{
+	height:15px;
+	background-color:#fff;
+	float:right;
+	width:10.5%;
+	margin-top:-23px;
+	position:absolute;
+	margin-left:85.2%;
+}
+	
+	
+/*SHOPPING CART */
+div#body img.kayu_shopcart{
+	margin-left:290px;
+	height:40px;	
+}
+
+#cart_list{
+	margin:0 auto;
+	border:1px solid #c30;
+	border-radius:20px/10px;
+	padding-bottom:20px;
+	padding-right:10px;
+	padding-left:10px;
+	width:500px;
+	height:100%;
+	
+}
+th{
+	font-family:rockwell;
+	padding:20px;
+	text-align:center;
+	border-bottom:2px solid red;
+	font-size:8pt;
+}
+table{
+	border-bottom:1px dotted red;
+}
+td{
+	font-family:rockwell;
+	padding:10px;
+	font-size:8pt;
+	text-align:center;
+	height:100%;
+	width:150px;
+}
+
+div#cart_list p
+{
+	float:right;
+	margin:0 auto;
+	margin-right:30px;
+	margin-top:15px;
+	color:#C30;
+	font-family:rockwell;
+	font-weight:bold;
+	font-size:10pt;
+}
+div#cart_list p span
+{
+	color:#000000;
+	font-size:11pt;
+}
+
+div#cart_list button
+{
+	font-size:9pt;
+	margin-top:15px;
+	font-family:rockwell;
+	margin-left:14%;
+	cursor:pointer;
+	box-shadow:1.5px 1.5px 0px;
+}
+
+div#body p.tombol_pada_shopcart
+{
+	margin-top:10px;
+	font-family:rockwell;
+	margin-left:25.5%;
+	text-align:center;
+	font-size:9pt;
+	border:2px solid #c30;;
+	border-radius:10px/10px;
+	box-shadow:2px 2px 0px 0px;
+	float:left;
+	padding:5px;
+	background-color:#fff;
+	color:#000;
+}
+div#body p.tombol_pada_shopcart2
+{
+	margin-top:10px;
+	font-family:rockwell;
+	text-align:center;
+	font-size:9pt;
+	border:2px solid black;
+	border-radius:10px/10px;
+	margin-right:26.5%;
+	padding:5px;
+	background-color:red;
+	color:#ffffff;
+	float:right;
+	box-shadow:2px 2px 0px 0px;
+}
+
+#container_cart
+{
+	margin-bottom:150px;
+}
+
+div#cart_list img.image_shopcart{
+	height:30px;
+	width:50px;
+}
+
+div#tombol_shopcart{
+	width:700px;
+	margin:0 auto;
+}
+		
+	
+/*ABOUT US*/
+div#body img.kayu_menu_about{
+	height:50px;
+	margin-left:42%;
+}
+
+div#about_us{
+	margin-top:20px;
+	width:780px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}
+div#about_us img{
+	border-radius:20px/10px;
+	border:1px solid #c30;
+	margin-left:100px;
+	width:500px;
+}
+
+div#about_us p{
+	font-family:rockwell;
+	width:600px;
+	margin-left:45px;
+	margin-right:auto;
+	text-align:center;
+	margin-top:10px;
+	font-size:10pt;
+}
+
+div#about_us img.garis_about{
+	border:none;
+	margin-left:13%;
+	position:relative;
+}
+
+div#about_us img.kayu_video{
+	border:none;
+	width:14%;
+	margin-left:38%;
+	margin-top:-20px;
+	height:50px;
+}
+div#about_us video
+{
+	margin-left:19.5%;
+	width:400px;
+	height:250px;
+}
+
+div#about_us p.judul_video{
+	color:#c30;
+	font-size:12pt;
+	font-weight:bold;
+	margin-left:6%;
+}
+
+div#venues{
+	margin-top:20px;
+	margin-left:42px;
+	width:600px;
+	height:100%;
+	border:4px solid #c30;
+	overflow:hidden;
+	border-radius:20px/10px;
+	padding-bottom:20px;
+}
+div#venues ul li.about h1{
+	text-align:center;
+	font-family:rockwell;
+	font-size:13pt;
+	position:absolute;
+	width:16.5%;
+	overflow:hidden;
+	margin-left:20px;
+	margin-top:-140px;
+}
+
+div#venues ul{
+	padding:5px;
+	margin-left:25px;
+}
+
+div#venues ul li.about img{
+	width:150px;
+	height:200px;
+	margin-left:8px;
+	border:4px solid #960;
+}
+
+div#venues ul li.about{ /*DIKASIH CLASS, ADA YANG KETIBAN!*/
+	display:inline-block;
+	width:150px;
+	padding:10px;
+	margin-bottom:-100px;
+}
+
+div.test{
+	opacity:1;
+}
+
+.gambar {
+	width:250px;
+	height:360px;
+}
+
+.info {
+	position:absolute;
+	margin-top:-63px;
+	overflow:hidden;
+	border-radius:20px/10px;
+	margin-left:10px;
+	width:153px;
+	height:60px;
+	background-color:rgba(20,20,20,0.7);
+	-webkit-transition:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
+	opacity:0;
+}
+.gambar:hover .info{
+	opacity:1;
+}
+
+.headline{
+	position:absolute;
+	font-family:rockwell;
+	font-size:8pt;
+	color:white;
+	position:absolute;
+	transition:ease-in;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left:-80px;
+	text-align:left;
+	font-weight:100;
+}
+.gambar:hover .headline{
+	margin-left:20px;
+}	
+	
+/*REGISTRATION*/
+div#registration{
+	border:1px solid red;
+	border-radius:10px/10px;
+	height:200px;
+	padding:10px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	margin-top:-20px;
+	padding-left:50px;
+	margin-bottom:100px;
+	padding-bottom:60px;
+	overflow:hidden;
+}
+
+div#body img.kayu_menu_regis
+{
+	margin-left:40%;
+	height:50px;
+}
+
+div#registration form{
+	position:relative;
+	height:280px;
+}
+
+div#registration form ul li{
+	display:block;
+	padding:6px;
+	margin-right:240px;
+	font-size:11pt;
+}
+
+div#registration form ul li input{
+	width:11em;
+	float:right;
+}
+
+div#registration form textarea{
+	float:right;
+	margin-top:-145px;
+	margin-right:20px;
+	width:200px;
+	height:100px;
+}
+
+div#registration .tombol_submit
+{
+	margin-left:70%;
+	background-color:red;
+	color:#fff;
+	width:15%;
+	height:25px;
+	padding:0px;
+	border-radius:10px/10px;
+	box-shadow:15px 15px 0px 0px;
+	margin-top:60px;
+	font-family:rockwell;
+	font-size:11pt;
+	cursor:pointer;
+	position:absolute;
+	margin-top:30px;
+}
+
+div#registration .tombol_reset
+{
+	margin-left:10%;
+	font-family:rockwell;
+	background-color:#09C;
+	color:#fff;
+	height:25px;
+	font-size:11pt;
+	border-radius:10px/10px;
+	padding:0px;
+	width:15%;
+	cursor:pointer;
+	margin-top:30px;
+	position:absolute;
+}
+.tulisan_required
+{
+ 	margin-top:-100px;
+	margin-right:8%;
+	font-family:rockwell;
+	color:#c30;
+	font-size:11pt;
+	font-weight:bold;
+	text-align:center;
+}
+
+#registration p.alamat_regis{
+	margin-left:55%;
+	margin-top:-170px;
+	font-family:rockwell;
+	font-size:11pt;
+	position:absolute;
+}	
+	
+/*LIGHT-BOX!!*/
+div#product_detail h3.back_to{
+	text-align:center;
+	margin-right:65%;
+	font-family:rockwell;
+	font-size:13pt;
+	margin-top:20px;
+}
+
+div#product_detail h3.back_to a{
+	text-decoration:none;
+	color:#930;
+}
+
+div#product_detail h3.back_to a:hover{
+	color:#c30;
+}
+
+div#product_detail h3.back_to a:active{
+	color:#000000;
+}
+
+#product_detail{
+	height:100%;
+	margin-left:10%;
+	margin-top:50px;
+	margin-bottom:100px;
+	width:80%;
+}
+
+div#product_desc{
+	margin-left:50px;
+	margin-top:5px;
+	width:105%;
+}
+
+div#product_desc h3
+{
+	font-family:rockwell;
+	font-weight:100;
+	font-size:13pt;
+	color:#C03;
+	padding-bottom:20px;
+	border-bottom:2px solid black;
+	width:78%;
+	border-bottom-color:#C33;
+	box-shadow:0px 1px 0px black;
+	margin-bottom:20px;
+}
+
+div#product_desc p
+{
+	font-family:rockwell;
+	color:#C03;
+	font-size:13pt;
+	padding-bottom:20px;
+	border-bottom:2px solid black;
+	width:78%;
+	border-bottom-color:#C33;
+	box-shadow:0px 1px 0px black;
+	margin-bottom:10px;
+	margin-top:-10px;
+}
+
+div#product_desc span.deskripsi{
+	color:black;
+	font-size:12pt;
+	display:block;
+	font-weight:100;
+	text-align:left;
+	font-family:rockwell;
+	margin-left:40%;
+	margin-top:-20px;
+	width:60%;
+	
+}
+
+div#product_desc span.deskripsi_harga{
+	color:black;
+	font-size:12pt;
+	display:block;
+	font-weight:100;
+	text-align:left;
+	font-family:rockwell;
+	margin-left:48%;
+	margin-top:-20px;
+	width:60%;
+	
+}
+
+
+div#product_detail img
+{
+	border:2px solid #C30;
+	border-radius:20px/10px;
+	margin-left:25%;
+	width:280px;
+	height:180px;
+	margin-top:-35px;
+	
+}
+
+div#product_desc img.komposisi{
+	border:none;
+	height:5.5%;
+	width:4%;
+	margin-left:100px;
+	margin-top:-63px;
+	position:absolute;
+}
+
+div#product_detail img.addtocart_button
+{
+	height:20px;
+	border:2px solid black;
+	border-radius:0px/0px;
+	margin-left:33%;
+	width:12%;
+	margin-top:0%;
+}
+
+#nama_product
+{
+	width:350px;
+}
+
+div#nama_product h1{
+	color:black;
+	margin-top:10px;
+	font-size:13pt;
+	text-align:center;
+	font-family:rockwell;
+	font-weight:bold;
+	margin-left:60%;
+}
+
+.lightbox
+{
+	display:none;
+	position:fixed;
+	z-index:9999;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-align:center;
+	background:rgba(0,0,0,0.8);
+	cursor:default;
+	
+}
+
+div#product_detail img.gambar_popup{
+	cursor:default; 
+	width:700px; 
+	height:450px;
+	margin-top:40px;
+	margin-left:5%;
+}
+
+div#product_detail img.lightbox{
+	max-width:90%;
+	max-height:80%;
+	margin-top:2%;
+}
+
+.lightbox:target
+{
+	display:block;
+	outline:none;
+}
+
+/*LOGIN FORM */
+div#body img.kayu_menu_login{
+	margin-left:42.5%;
+	height:50px;
+}
+
+div#login_form{
+	border-radius:20px/10px;
+	width:500px;
+	margin:0 auto;
+	height:250px;
+	margin-top:20px;
+	margin-bottom:50px;
+	overflow:hidden;
+	background-image:url(../images/login_form.jpg);
+	background-size:500px 250px;
+}
+
+div#login_kanan{
+	width:40%;
+	height:530px;
+	margin-left:69%;
+}
+
+div#login_kanan form
+{
+	margin-top:10px;
+}
+
+div#login_kanan label
+{
+	margin-left:4%;
+	color:#ffffff;
+	font-size:12pt;
+	width:60%;
+}
+
+div#login_kanan input
+{
+	margin-left:3%;
+	height:18px;
+	width:60%;
+}
+
+div#login_kanan input.submit_button
+{
+	margin-top:12px;
+	margin-left:41%;
+	width:50px;
+	height:20px;
+	font-weight:bold;
+	font-family:myriad;
+	font-size:10pt;
+	color:#c30;
+	border-radius:5px/10px;
+	border:1px solid black;
+	background-color:white;
+	cursor:pointer;
+}
+
+div#login_kanan p.login_forgot
+{
+	color:#ffffff;
+	margin-left:3%;
+	margin-top:20px;
+	font-size:10pt;
+}
+
+div#login_kanan p.login_forgot2
+{
+	color:#ffffff;
+	margin-left:3%;
+	margin-top:10px;
+	font-size:10pt;
+}
+
+div#login_kanan a{
+	text-decoration:underline;
+	color:white;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+div#backg{
+	background-image:url(../images/wood-background.png);
+	margin-top:-50px;
+	margin-bottom:-15px;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+div#header img{
+	height:100px;
+	width:100%;
+	
+}
+
+#body .menu_diatas{
+	width:100%;
+	margin-left:0%;
+}
+
+#body{
+	border:1px solid white;
+	width:88%;
+	height:100%;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:white;
+	
+}
+
+div#body ul.menu_atas{
+	margin-top:10px;
+	margin-left:13%;
+	width:80%;
+}
+
+div#body ul li{
+	display:inline;
+	padding:3.5%;
+	font-family:rockwell;
+	font-size:11pt;
+	
+}
+
+div#body ul li a{
+	text-decoration:none;
+	color:#C03;
+}
+
+div#body ul li a:hover{
+	color:black;
+}
+
+div#body ul li a:active{
+	color:#F00;
+}
+
+div#body img.garismenu{
+	margin-left:7%;
+	width:85%;
+}
+
+div#body img.kayu{
+	margin-left:38.5%;
+	height:60px;
+	width:22%;
+}
+
+#header{
+	height:130px;
+}
+
+div#header input.searchbar{
+	float:right;
+	margin-top:-100px;
+	position:relative;
+	margin-right:100px;
+}
+
+
+div#recommendation img.gambar_rekom
+{
+	width:100%;
+	height:100px;
+	border:2px solid black;
+}
+
+div#recommendation
+{
+	
+	margin-top:20px;
+	padding-top:0px;
+	margin-left:9%;
+	border-radius:20px/20px;
+	border:2px #C30 solid;
+	margin-right:8%;
+	padding-bottom:-200px;
+	margin-bottom:50px;
+}
+
+
+div#recommendation ul li{
+	display:inline-block;
+	margin-right:3%;
+	margin-top:3%;
+		width:22%;
+}
+div#recommendation ul li img{
+	padding:0px;
+	margin-top:-20px;
+	margin-bottom:10px;
+	border:1px black solid;
+	border-radius:20px/20px;
+}
+
+div#recommendation ul{
+	margin-left:5%;
+	list-style:none;
+}
+
+p.rekom{
+	text-align:center;
+	width:120%;
+	margin-left:-5%;
+}
+
+div#recommendation ul li img.addtocart_button{
+	border-radius:0px/0px;
+	margin-top:10px;
+	height:25px;
+	margin-left:22%;
+	width:60%;
+}
+
+div#footer img{
+	height:100px;
+	width:100%;
+	position:relative;
+}
+
+div#menu_all
+{
+	margin-top:20px;
+	padding-top:0px;
+	margin-left:10%;
+	margin-right:80px;
+	padding-bottom:-200px;
+	margin-bottom:50px;
+	height:100%;
+}
+
+img.gambar_menu
+{
+	width:100%;
+	height:100px;
+}
+
+div#menu_all ul li{
+	display:inline-block;
+	width:25%;
+}
+div#menu_all ul li img{
+	padding:0px;
+	margin-top:-20px;
+	margin-bottom:10px;
+	border:1px black solid;
+	border-radius:20px/20px;
+}
+
+div#menu_all ul{
+	margin-left:6.5%;
+	list-style:none;
+}
+
+div#menu_all ul li img.addtocart_button{
+	border-radius:0px/0px;
+	margin-top:10px;
+	height:25px;
+	margin-left:28%;
+	width:50%;
+}
+div#body img.kayu_menu{
+	margin-left:42%;
+	height:45px;
+	width:17%;
+}
+
+div#submenu ul li
+{
+	padding:2.75%;
+}
+div#submenu ul li a
+{
+	text-align:center;
+	margin-left:2%;
+	margin-right:-30px;
+}
+div#submenu ul li:before
+{
+	content:"|";	
+}
+div#submenu ul li:first-child:before
+{
+	content:none;;	
+}
+
+div#submenu ul
+{
+	margin-left:20%;
+}
+div#submenu{
+	margin-top:5px;
+	height:20px;
+}
+
+div#body img.garissubmenu{
+	margin-left:13.5%;
+	width:75%;
+}
+    
+}
